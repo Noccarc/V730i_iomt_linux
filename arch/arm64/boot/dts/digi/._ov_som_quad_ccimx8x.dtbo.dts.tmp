@@ -1,0 +1,115 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_som_quad_ccimx8x.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_som_quad_ccimx8x.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_som_quad_ccimx8x.dts"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/firmware/imx/rsrc.h" 1
+# 17 "arch/arm64/boot/dts/digi/_ov_som_quad_ccimx8x.dts" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h" 1
+# 18 "arch/arm64/boot/dts/digi/_ov_som_quad_ccimx8x.dts" 2
+
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SOM: quad-core CPU";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&cpus>;
+  __overlay__ {
+   #address-cells = <2>;
+   #size-cells = <0>;
+
+   A35_2: cpu@2 {
+    device_type = "cpu";
+    compatible = "arm,cortex-a35";
+    reg = <0x0 0x2>;
+    enable-method = "psci";
+    next-level-cache = <&A35_L2>;
+    clocks = <&clk 507 2>;
+    operating-points-v2 = <&a35_opp_table>;
+    #cooling-cells = <2>;
+   };
+
+   A35_3: cpu@3 {
+    device_type = "cpu";
+    compatible = "arm,cortex-a35";
+    reg = <0x0 0x3>;
+    enable-method = "psci";
+    next-level-cache = <&A35_L2>;
+    clocks = <&clk 507 2>;
+    operating-points-v2 = <&a35_opp_table>;
+    #cooling-cells = <2>;
+   };
+  };
+ };
+
+
+ fragment@2 {
+  target = <&gpu_3d0>;
+  __overlay__ {
+   assigned-clock-rates = <700000000>, <850000000>;
+  };
+ };
+
+
+ fragment@3 {
+  target = <&thermal_zones>;
+  __overlay__ {
+   cpu-thermal0 {
+    cooling-maps {
+     map0 {
+      cooling-device =
+      <&A35_0 (~0) (~0)>,
+      <&A35_1 (~0) (~0)>,
+      <&A35_2 (~0) (~0)>,
+      <&A35_3 (~0) (~0)>;
+     };
+    };
+   };
+
+   pmic-thermal0 {
+    cooling-maps {
+     map0 {
+      cooling-device =
+      <&A35_0 (~0) (~0)>,
+      <&A35_1 (~0) (~0)>,
+      <&A35_2 (~0) (~0)>,
+      <&A35_3 (~0) (~0)>;
+     };
+    };
+   };
+  };
+ };
+
+
+
+
+
+ fragment@4 {
+  target = <&mipi1_lis_lpcg>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+ fragment@5 {
+  target = <&mipi1_pwm_lpcg>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+ fragment@6 {
+  target = <&mipi1_i2c0_lpcg>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+};

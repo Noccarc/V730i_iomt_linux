@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/bridge/sn65dsi83/built-in.a := rm -f drivers/gpu/drm/bridge/sn65dsi83/built-in.a; aarch64-dey-linux-ar cDPrST drivers/gpu/drm/bridge/sn65dsi83/built-in.a drivers/gpu/drm/bridge/sn65dsi83/sn65dsi83_drv.o drivers/gpu/drm/bridge/sn65dsi83/sn65dsi83_brg.o

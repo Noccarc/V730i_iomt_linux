@@ -1,0 +1,26 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_som_mfg-functional_ccimx8x.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_som_mfg-functional_ccimx8x.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_som_mfg-functional_ccimx8x.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+
+ fragment@0 {
+  target = <&lpuart1>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&pcieb>;
+  __overlay__ {
+   pinctrl-0 = <&pinctrl_pcieb_mini_card>;
+   status = "okay";
+  };
+ };
+};

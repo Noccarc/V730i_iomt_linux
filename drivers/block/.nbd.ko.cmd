@@ -1,0 +1,1 @@
+cmd_drivers/block/nbd.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/block/nbd.ko drivers/block/nbd.o drivers/block/nbd.mod.o;  true

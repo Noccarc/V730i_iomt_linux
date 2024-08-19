@@ -1,0 +1,90 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_lvds1_ccimx8x-sbc-pro.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_lvds1_ccimx8x-sbc-pro.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_lvds1_ccimx8x-sbc-pro.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SBC: LVDS display";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&i2c0_mipi_lvds1>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@2 {
+  target = <&ldb2>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@3 {
+  target = <&ldb2_phy>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@4 {
+  target = <&lvds1>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@5 {
+  target = <&lvds_backlight1>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@6 {
+  target = <&pwm_mipi_lvds1>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@7 {
+  target = <&lvds1_goodix_touch1>;
+  __overlay__ {
+   extends-desktop = <&lvds0>;
+   status = "okay";
+  };
+ };
+
+
+ fragment@8 {
+  target = <&lvds1_goodix_touch2>;
+  __overlay__ {
+   extends-desktop = <&lvds0>;
+   status = "okay";
+  };
+ };
+
+
+ fragment@9 {
+  target = <&lvds1_panel>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+};

@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/rtl8150.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/net/usb/rtl8150.ko drivers/net/usb/rtl8150.o drivers/net/usb/rtl8150.mod.o;  true

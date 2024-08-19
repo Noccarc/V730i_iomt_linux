@@ -1,0 +1,25 @@
+!<thin>
+//                                              292       `
+reset/vexpress-poweroff.o/
+reset/xgene-reboot.o/
+reset/syscon-reboot.o/
+reset/reboot-mode.o/
+reset/syscon-reboot-mode.o/
+supply/power_supply_core.o/
+supply/power_supply_sysfs.o/
+supply/power_supply_leds.o/
+supply/power_supply_hwmon.o/
+supply/bq27xxx_battery.o/
+supply/bq27xxx_battery_i2c.o/
+
+/0              0           0     0     644     8104      `
+/27             0           0     0     644     4784      `
+/49             0           0     0     644     5200      `
+/72             0           0     0     644     8968      `
+/93             0           0     0     644     5856      `
+/121            0           0     0     644     51072     `
+/149            0           0     0     644     19312     `
+/178            0           0     0     644     4112      `
+/206            0           0     0     644     7792      `
+/235            0           0     0     644     26272     `
+/261            0           0     0     644     14896     `

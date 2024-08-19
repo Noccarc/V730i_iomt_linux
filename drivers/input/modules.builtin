@@ -1,0 +1,15 @@
+drivers/input/input-core.ko
+drivers/input/ff-memless.ko
+drivers/input/input-polldev.ko
+drivers/input/matrix-keymap.ko
+drivers/input/input-leds.ko
+drivers/input/evdev.ko
+drivers/input/keyboard/atkbd.ko
+drivers/input/keyboard/gpio_keys.ko
+drivers/input/keyboard/mca-keypad.ko
+drivers/input/keyboard/imx_sc_pwrkey.ko
+drivers/input/misc/pwrkey-mca.ko
+drivers/input/mouse/psmouse.ko
+drivers/input/touchscreen/of_touchscreen.ko
+drivers/input/touchscreen/fusion.ko
+drivers/input/touchscreen/goodix.ko

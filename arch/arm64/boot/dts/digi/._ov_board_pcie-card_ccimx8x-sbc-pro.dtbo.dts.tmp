@@ -1,0 +1,46 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_pcie-card_ccimx8x-sbc-pro.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_pcie-card_ccimx8x-sbc-pro.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_pcie-card_ccimx8x-sbc-pro.dts"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 17 "arch/arm64/boot/dts/digi/_ov_board_pcie-card_ccimx8x-sbc-pro.dts" 2
+
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SBC: PCIe (mini card)";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&reg_3v3_pcie>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+
+
+
+
+
+ fragment@2 {
+  target = <&pcieb>;
+  __overlay__ {
+   pinctrl-names = "default", "sleep";
+   pinctrl-0 = <&pinctrl_reg_3v3_pcie>, <&pinctrl_pcieb_mini_card>;
+   pinctrl-1 = <&pinctrl_reg_3v3_pcie_sleep>;
+   reset-gpio = <&lsio_gpio3 16 1>;
+   disable-gpio = <&lsio_gpio0 30 0>;
+   vpcie-supply = <&reg_3v3_pcie>;
+   status = "okay";
+  };
+ };
+};

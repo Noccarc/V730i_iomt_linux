@@ -1,0 +1,1 @@
+cmd_drivers/staging/fsl_ppfe/pfe.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/staging/fsl_ppfe/pfe.ko drivers/staging/fsl_ppfe/pfe.o drivers/staging/fsl_ppfe/pfe.mod.o;  true

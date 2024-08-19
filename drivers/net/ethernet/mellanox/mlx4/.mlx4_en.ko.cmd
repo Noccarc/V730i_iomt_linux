@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/mellanox/mlx4/mlx4_en.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/net/ethernet/mellanox/mlx4/mlx4_en.ko drivers/net/ethernet/mellanox/mlx4/mlx4_en.o drivers/net/ethernet/mellanox/mlx4/mlx4_en.mod.o;  true

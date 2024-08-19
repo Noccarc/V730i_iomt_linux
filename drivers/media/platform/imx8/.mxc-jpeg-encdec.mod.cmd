@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/imx8/mxc-jpeg-encdec.mod := { echo  drivers/media/platform/imx8/mxc-jpeg-hw.o drivers/media/platform/imx8/mxc-jpeg.o; echo; } > drivers/media/platform/imx8/mxc-jpeg-encdec.mod

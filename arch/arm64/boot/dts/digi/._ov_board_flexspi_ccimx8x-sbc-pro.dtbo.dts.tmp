@@ -1,0 +1,130 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_flexspi_ccimx8x-sbc-pro.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_flexspi_ccimx8x-sbc-pro.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_flexspi_ccimx8x-sbc-pro.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SBC: FlexSPI";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&flexspi0>;
+  __overlay__ {
+   #address-cells = <1>;
+   #size-cells = <0>;
+   pinctrl-names = "default";
+   pinctrl-0 = <&pinctrl_flexspi0>;
+   status = "okay";
+
+   flash0: mt25qu256aba@2 {
+    reg = <2>;
+    #address-cells = <1>;
+    #size-cells = <1>;
+    compatible = "jedec,spi-nor";
+    spi-max-frequency = <80000000>;
+    spi-tx-bus-width = <4>;
+    spi-rx-bus-width = <4>;
+   };
+  };
+ };
+
+
+
+
+
+
+ fragment@2 {
+  target = <&fec1>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@3 {
+  target = <&fec2>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@4 {
+  target = <&flexcan3>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@5 {
+  target = <&lpuart3>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@6 {
+  target = <&ov5640_mipi>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@7 {
+  target = <&lt_bridge>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@8 {
+  target = <&fusion_touch>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@9 {
+  target = <&lvds0_goodix_touch1>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@10 {
+  target = <&lvds0_goodix_touch2>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@11 {
+  target = <&lvds1_goodix_touch1>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@12 {
+  target = <&lvds1_goodix_touch2>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+};

@@ -1,0 +1,4 @@
+drivers/thermal/imx_sc_thermal.ko
+drivers/thermal/imx8mm_thermal.ko
+drivers/thermal/device_cooling.ko
+drivers/thermal/qoriq_thermal.ko

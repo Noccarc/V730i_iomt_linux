@@ -1,0 +1,4 @@
+_ov_som_v1_ccimx8mn.o: arch/arm64/boot/dts/digi/_ov_som_v1_ccimx8mn.dts \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

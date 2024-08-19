@@ -1,0 +1,46 @@
+!<thin>
+//                                              418       `
+dpu/dpu-common.o/
+dpu/dpu-constframe.o/
+dpu/dpu-disengcfg.o/
+dpu/dpu-extdst.o/
+dpu/dpu-fetchdecode.o/
+dpu/dpu-fetcheco.o/
+dpu/dpu-fetchlayer.o/
+dpu/dpu-fetchwarp.o/
+dpu/dpu-fetchunit.o/
+dpu/dpu-framegen.o/
+dpu/dpu-hscaler.o/
+dpu/dpu-layerblend.o/
+dpu/dpu-sc-misc.o/
+dpu/dpu-signature.o/
+dpu/dpu-store.o/
+dpu/dpu-tcon.o/
+dpu/dpu-vscaler.o/
+dpu-blit/dpu-blit.o/
+lcdif/lcdif-common.o/
+imx8_pc.o/
+imx8_prg.o/
+imx8_dprc.o/
+/0              0           0     0     644     53168     `
+/18             0           0     0     644     13152     `
+/40             0           0     0     644     7088      `
+/61             0           0     0     644     33744     `
+/79             0           0     0     644     25000     `
+/102            0           0     0     644     16560     `
+/122            0           0     0     644     12080     `
+/144            0           0     0     644     12096     `
+/165            0           0     0     644     24288     `
+/186            0           0     0     644     31480     `
+/206            0           0     0     644     19816     `
+/225            0           0     0     644     15872     `
+/247            0           0     0     644     3392      `
+/266            0           0     0     644     25800     `
+/287            0           0     0     644     6232      `
+/304            0           0     0     644     14440     `
+/320            0           0     0     644     24000     `
+/339            0           0     0     644     16784     `
+/360            0           0     0     644     30088     `
+/382            0           0     0     644     11016     `
+/393            0           0     0     644     19704     `
+/405            0           0     0     644     27576     `

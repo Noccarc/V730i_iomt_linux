@@ -1,0 +1,30 @@
+!<thin>
+//                                              260       `
+brcmstb_gisb.o/
+fsl-mc/fsl-mc-bus.o/
+fsl-mc/mc-sys.o/
+fsl-mc/mc-io.o/
+fsl-mc/dpbp.o/
+fsl-mc/dpcon.o/
+fsl-mc/dprc.o/
+fsl-mc/dprc-driver.o/
+fsl-mc/fsl-mc-allocator.o/
+fsl-mc/fsl-mc-msi.o/
+fsl-mc/dpmcp.o/
+fsl-mc/fsl-mc-uapi.o/
+simple-pm-bus.o/
+vexpress-config.o/
+/0              0           0     0     644     12320     `
+/16             0           0     0     644     30312     `
+/37             0           0     0     644     4128      `
+/54             0           0     0     644     8048      `
+/70             0           0     0     644     7608      `
+/85             0           0     0     644     8760      `
+/101            0           0     0     644     11888     `
+/116            0           0     0     644     14728     `
+/138            0           0     0     644     18424     `
+/165            0           0     0     644     4960      `
+/186            0           0     0     644     2192      `
+/202            0           0     0     644     5240      `
+/224            0           0     0     644     5008      `
+/241            0           0     0     644     8872      `

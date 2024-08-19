@@ -1,0 +1,27 @@
+!<thin>
+//                                              180       `
+core.o/
+dummy.o/
+fixed-helper.o/
+helpers.o/
+devres.o/
+of_regulator.o/
+fixed.o/
+bd718x7-regulator.o/
+gpio-regulator.o/
+pca9450-regulator.o/
+pf8x00-sc-regulator.o/
+pwm-regulator.o/
+
+/0              0           0     0     644     149696    `
+/8              0           0     0     644     4720      `
+/17             0           0     0     644     2360      `
+/33             0           0     0     644     31768     `
+/44             0           0     0     644     20248     `
+/54             0           0     0     644     17128     `
+/70             0           0     0     644     9920      `
+/79             0           0     0     644     27552     `
+/100            0           0     0     644     10904     `
+/118            0           0     0     644     22200     `
+/139            0           0     0     644     19936     `
+/162            0           0     0     644     11744     `

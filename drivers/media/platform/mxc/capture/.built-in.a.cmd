@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/mxc/capture/built-in.a := rm -f drivers/media/platform/mxc/capture/built-in.a; aarch64-dey-linux-ar cDPrST drivers/media/platform/mxc/capture/built-in.a drivers/media/platform/mxc/capture/mx6s_capture.o drivers/media/platform/mxc/capture/mxc_mipi_csi.o drivers/media/platform/mxc/capture/ov5640_mipi_v2.o

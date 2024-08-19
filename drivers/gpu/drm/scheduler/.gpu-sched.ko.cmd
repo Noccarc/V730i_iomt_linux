@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/scheduler/gpu-sched.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/gpu/drm/scheduler/gpu-sched.ko drivers/gpu/drm/scheduler/gpu-sched.o drivers/gpu/drm/scheduler/gpu-sched.mod.o;  true

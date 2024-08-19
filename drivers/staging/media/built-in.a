@@ -1,0 +1,21 @@
+!<thin>
+//                                              196       `
+imx/imx8-media-dev.o/
+imx/imx8-isi-core.o/
+imx/imx8-isi-cap.o/
+imx/imx8-isi-m2m.o/
+imx/imx8-isi-hw.o/
+imx/imx8-mipi-csi2.o/
+imx/imx8-mipi-csi2-sam.o/
+imx/imx8-parallel-csi.o/
+imx/gmsl-max9286.o/
+
+/0              0           0     0     644     19880     `
+/22             0           0     0     644     20456     `
+/43             0           0     0     644     39256     `
+/63             0           0     0     644     31080     `
+/83             0           0     0     644     31200     `
+/102            0           0     0     644     22480     `
+/124            0           0     0     644     37608     `
+/150            0           0     0     644     18184     `
+/175            0           0     0     644     41352     `

@@ -1,0 +1,6 @@
+drivers/spi/spi-bitbang.ko
+drivers/spi/spi-fsl-lpspi.ko
+drivers/spi/spi-fsl-qspi.ko
+drivers/spi/spi-imx.ko
+drivers/spi/spi-nxp-fspi.ko
+drivers/spi/spi-pl022.ko

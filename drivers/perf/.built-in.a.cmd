@@ -1,0 +1,1 @@
+cmd_drivers/perf/built-in.a := rm -f drivers/perf/built-in.a; aarch64-dey-linux-ar cDPrST drivers/perf/built-in.a drivers/perf/arm_pmu.o drivers/perf/arm_pmu_platform.o drivers/perf/arm_pmu_acpi.o drivers/perf/fsl_imx8_ddr_perf.o drivers/perf/hisilicon/built-in.a

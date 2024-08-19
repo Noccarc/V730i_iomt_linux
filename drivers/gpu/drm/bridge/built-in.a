@@ -1,0 +1,19 @@
+!<thin>
+//                                              150       `
+fsl-imx-ldb.o/
+lt8912.o/
+nwl-dsi/nwl-drv.o/
+nwl-dsi/nwl-dsi.o/
+synopsys/dw-hdmi.o/
+sec-dsim.o/
+sn65dsi83/sn65dsi83_drv.o/
+sn65dsi83/sn65dsi83_brg.o/
+
+/0              0           0     0     644     8200      `
+/15             0           0     0     644     22696     `
+/25             0           0     0     644     33136     `
+/44             0           0     0     644     21008     `
+/63             0           0     0     644     67376     `
+/83             0           0     0     644     31632     `
+/95             0           0     0     644     14128     `
+/122            0           0     0     644     9208      `

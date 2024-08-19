@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_cdc.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/usb/gadget/legacy/g_cdc.ko drivers/usb/gadget/legacy/g_cdc.o drivers/usb/gadget/legacy/g_cdc.mod.o;  true

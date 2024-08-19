@@ -1,0 +1,63 @@
+!<thin>
+//                                              534       `
+usbstring.o/
+config.o/
+epautoconf.o/
+composite.o/
+functions.o/
+configfs.o/
+u_f.o/
+udc/core.o/
+udc/trace.o/
+function/f_acm.o/
+function/f_loopback.o/
+function/f_sourcesink.o/
+function/u_serial.o/
+function/f_serial.o/
+function/f_obex.o/
+function/u_ether.o/
+function/f_ncm.o/
+function/f_ecm.o/
+function/f_eem.o/
+function/f_subset.o/
+function/f_rndis.o/
+function/rndis.o/
+function/f_mass_storage.o/
+function/storage_common.o/
+function/f_fs.o/
+function/u_audio.o/
+function/f_uac1.o/
+function/f_uac2.o/
+function/f_midi.o/
+function/f_hid.o/
+
+/0              0           0     0     644     2760      `
+/13             0           0     0     644     9544      `
+/23             0           0     0     644     5672      `
+/37             0           0     0     644     38992     `
+/50             0           0     0     644     8816      `
+/63             0           0     0     644     45208     `
+/75             0           0     0     644     2680      `
+/82             0           0     0     644     54856     `
+/94             0           0     0     644     912       `
+/107            0           0     0     644     14040     `
+/125            0           0     0     644     12576     `
+/148            0           0     0     644     23472     `
+/173            0           0     0     644     25136     `
+/194            0           0     0     644     9472      `
+/215            0           0     0     644     10504     `
+/234            0           0     0     644     34184     `
+/254            0           0     0     644     28992     `
+/272            0           0     0     644     18912     `
+/290            0           0     0     644     16208     `
+/308            0           0     0     644     14200     `
+/329            0           0     0     644     25672     `
+/349            0           0     0     644     21168     `
+/367            0           0     0     644     56624     `
+/394            0           0     0     644     31256     `
+/421            0           0     0     644     60936     `
+/438            0           0     0     644     16328     `
+/458            0           0     0     644     19848     `
+/477            0           0     0     644     25080     `
+/496            0           0     0     644     26752     `
+/515            0           0     0     644     29000     `

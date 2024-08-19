@@ -1,0 +1,37 @@
+!<thin>
+//                                              272       `
+dpu-common.o/
+dpu-constframe.o/
+dpu-disengcfg.o/
+dpu-extdst.o/
+dpu-fetchdecode.o/
+dpu-fetcheco.o/
+dpu-fetchlayer.o/
+dpu-fetchwarp.o/
+dpu-fetchunit.o/
+dpu-framegen.o/
+dpu-hscaler.o/
+dpu-layerblend.o/
+dpu-sc-misc.o/
+dpu-signature.o/
+dpu-store.o/
+dpu-tcon.o/
+dpu-vscaler.o/
+
+/0              0           0     0     644     53168     `
+/14             0           0     0     644     13152     `
+/32             0           0     0     644     7088      `
+/49             0           0     0     644     33744     `
+/63             0           0     0     644     25000     `
+/82             0           0     0     644     16560     `
+/98             0           0     0     644     12080     `
+/116            0           0     0     644     12096     `
+/133            0           0     0     644     24288     `
+/150            0           0     0     644     31480     `
+/166            0           0     0     644     19816     `
+/181            0           0     0     644     15872     `
+/199            0           0     0     644     3392      `
+/214            0           0     0     644     25800     `
+/231            0           0     0     644     6232      `
+/244            0           0     0     644     14440     `
+/256            0           0     0     644     24000     `

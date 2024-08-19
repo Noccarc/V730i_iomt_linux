@@ -1,0 +1,19 @@
+!<thin>
+//                                              198       `
+arm_pmu.o/
+arm_pmu_platform.o/
+arm_pmu_acpi.o/
+fsl_imx8_ddr_perf.o/
+hisilicon/hisi_uncore_pmu.o/
+hisilicon/hisi_uncore_l3c_pmu.o/
+hisilicon/hisi_uncore_hha_pmu.o/
+hisilicon/hisi_uncore_ddrc_pmu.o/
+
+/0              0           0     0     644     20264     `
+/11             0           0     0     644     7520      `
+/31             0           0     0     644     7384      `
+/47             0           0     0     644     28552     `
+/68             0           0     0     644     9248      `
+/97             0           0     0     644     16440     `
+/130            0           0     0     644     18552     `
+/163            0           0     0     644     15824     `

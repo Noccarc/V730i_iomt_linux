@@ -1,0 +1,58 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_flexspi_ccimx8m-dvk.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_flexspi_ccimx8m-dvk.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_flexspi_ccimx8m-dvk.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "DVK: FlexSPI";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&flexspi>;
+  __overlay__ {
+   #address-cells = <1>;
+   #size-cells = <0>;
+   pinctrl-names = "default";
+   pinctrl-0 = <&pinctrl_flexspi>;
+   status = "okay";
+
+   flash0: mt25qu256aba@0 {
+    reg = <0>;
+    #address-cells = <1>;
+    #size-cells = <1>;
+    compatible = "jedec,spi-nor";
+    spi-max-frequency = <80000000>;
+    spi-tx-bus-width = <4>;
+    spi-rx-bus-width = <4>;
+   };
+  };
+ };
+
+
+
+
+
+
+ fragment@2 {
+  target = <&lt_bridge>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@3 {
+  target = <&dsi_lvds_bridge>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+};

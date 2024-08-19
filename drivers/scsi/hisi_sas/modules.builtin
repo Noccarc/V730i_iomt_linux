@@ -1,0 +1,3 @@
+drivers/scsi/hisi_sas/hisi_sas_main.ko
+drivers/scsi/hisi_sas/hisi_sas_v1_hw.ko
+drivers/scsi/hisi_sas/hisi_sas_v2_hw.ko

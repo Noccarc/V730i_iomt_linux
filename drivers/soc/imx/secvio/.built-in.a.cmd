@@ -1,0 +1,1 @@
+cmd_drivers/soc/imx/secvio/built-in.a := rm -f drivers/soc/imx/secvio/built-in.a; aarch64-dey-linux-ar cDPrST drivers/soc/imx/secvio/built-in.a drivers/soc/imx/secvio/imx-secvio-sc.o drivers/soc/imx/secvio/imx-secvio-debugfs.o drivers/soc/imx/secvio/imx-secvio-audit.o

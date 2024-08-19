@@ -1,0 +1,4 @@
+imx8mn-ddr4-evk-inmate.o: \
+ arch/arm64/boot/dts/freescale/imx8mn-ddr4-evk-inmate.dts \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

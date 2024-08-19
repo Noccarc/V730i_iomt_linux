@@ -1,0 +1,14 @@
+!<thin>
+//                                              108       `
+industrialio-core.o/
+industrialio-event.o/
+inkern.o/
+adc/imx8qxp_adc.o/
+adc/mca-adc.o/
+tamper/mca_tamper.o/
+/0              0           0     0     644     57712     `
+/21             0           0     0     644     12808     `
+/43             0           0     0     644     38832     `
+/53             0           0     0     644     17872     `
+/72             0           0     0     644     23968     `
+/87             0           0     0     644     15768     `

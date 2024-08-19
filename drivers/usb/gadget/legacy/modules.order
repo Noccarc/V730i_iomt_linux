@@ -1,0 +1,6 @@
+drivers/usb/gadget/legacy/g_zero.ko
+drivers/usb/gadget/legacy/g_ether.ko
+drivers/usb/gadget/legacy/g_mass_storage.ko
+drivers/usb/gadget/legacy/g_serial.ko
+drivers/usb/gadget/legacy/g_cdc.ko
+drivers/usb/gadget/legacy/g_ncm.ko

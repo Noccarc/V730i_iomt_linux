@@ -1,0 +1,21 @@
+!<thin>
+//                                              168       `
+gpcv2.o/
+busfreq-imx8mq.o/
+soc-imx8.o/
+soc-imx-scu.o/
+imx8m_pm_domains.o/
+mu/mx8_mu.o/
+secvio/imx-secvio-sc.o/
+secvio/imx-secvio-debugfs.o/
+secvio/imx-secvio-audit.o/
+
+/0              0           0     0     644     32624     `
+/9              0           0     0     644     25888     `
+/27             0           0     0     644     16576     `
+/39             0           0     0     644     6568      `
+/54             0           0     0     644     9824      `
+/74             0           0     0     644     7896      `
+/87             0           0     0     644     29136     `
+/111            0           0     0     644     9952      `
+/140            0           0     0     644     1928      `

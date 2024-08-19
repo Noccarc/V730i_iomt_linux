@@ -1,0 +1,18 @@
+!<thin>
+//                                              122       `
+qixis_ctrl.o/
+guts.o/
+dpio/dpio.o/
+dpio/qbman-portal.o/
+dpio/dpio-service.o/
+dpio/dpio-driver.o/
+dpaa2-console.o/
+rcpm.o/
+/0              0           0     0     644     6464      `
+/14             0           0     0     644     12648     `
+/22             0           0     0     644     3768      `
+/35             0           0     0     644     22104     `
+/56             0           0     0     644     39128     `
+/77             0           0     0     644     11048     `
+/97             0           0     0     644     13168     `
+/114            0           0     0     644     7328      `

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/lima/lima.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/gpu/drm/lima/lima.ko drivers/gpu/drm/lima/lima.o drivers/gpu/drm/lima/lima.mod.o;  true

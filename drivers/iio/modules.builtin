@@ -1,0 +1,4 @@
+drivers/iio/industrialio.ko
+drivers/iio/adc/imx8qxp_adc.ko
+drivers/iio/adc/mca-adc.ko
+drivers/iio/tamper/mca_tamper.ko

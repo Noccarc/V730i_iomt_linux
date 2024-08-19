@@ -1,0 +1,22 @@
+!<thin>
+//                                              204       `
+coresight.o/
+coresight-etm-perf.o/
+coresight-platform.o/
+coresight-tmc.o/
+coresight-tmc-etf.o/
+coresight-tmc-etr.o/
+coresight-funnel.o/
+coresight-replicator.o/
+coresight-etm4x.o/
+coresight-etm4x-sysfs.o/
+/0              0           0     0     644     26000     `
+/13             0           0     0     644     16504     `
+/35             0           0     0     644     11208     `
+/57             0           0     0     644     20856     `
+/74             0           0     0     644     12144     `
+/95             0           0     0     644     25048     `
+/116            0           0     0     644     12712     `
+/136            0           0     0     644     13888     `
+/160            0           0     0     644     16160     `
+/179            0           0     0     644     58080     `

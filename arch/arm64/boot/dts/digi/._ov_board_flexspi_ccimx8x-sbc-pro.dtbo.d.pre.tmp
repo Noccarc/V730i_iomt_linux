@@ -1,0 +1,2 @@
+_ov_board_flexspi_ccimx8x-sbc-pro.o: \
+ arch/arm64/boot/dts/digi/_ov_board_flexspi_ccimx8x-sbc-pro.dts

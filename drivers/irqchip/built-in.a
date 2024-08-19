@@ -1,0 +1,35 @@
+!<thin>
+//                                              304       `
+irqchip.o/
+irq-gic.o/
+irq-gic-common.o/
+irq-gic-v2m.o/
+irq-gic-v3.o/
+irq-gic-v3-mbi.o/
+irq-gic-v3-its.o/
+irq-gic-v3-its-platform-msi.o/
+irq-gic-v4.o/
+irq-gic-v3-its-pci-msi.o/
+irq-gic-v3-its-fsl-mc-msi.o/
+irq-partition-percpu.o/
+irq-imx-gpcv2.o/
+irq-ls-scfg-msi.o/
+irq-imx-irqsteer.o/
+irq-imx-intmux.o/
+
+/0              0           0     0     644     2280      `
+/11             0           0     0     644     37440     `
+/22             0           0     0     644     4408      `
+/40             0           0     0     644     16960     `
+/55             0           0     0     644     45384     `
+/69             0           0     0     644     10656     `
+/87             0           0     0     644     69280     `
+/105            0           0     0     644     7280      `
+/136            0           0     0     644     5776      `
+/150            0           0     0     644     7888      `
+/176            0           0     0     644     5848      `
+/205            0           0     0     644     9072      `
+/229            0           0     0     644     13912     `
+/246            0           0     0     644     15672     `
+/265            0           0     0     644     12400     `
+/285            0           0     0     644     11800     `

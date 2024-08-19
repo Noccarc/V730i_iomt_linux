@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/cppc_cpufreq.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/cpufreq/cppc_cpufreq.ko drivers/cpufreq/cppc_cpufreq.o drivers/cpufreq/cppc_cpufreq.mod.o;  true

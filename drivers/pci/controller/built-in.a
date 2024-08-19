@@ -1,0 +1,32 @@
+!<thin>
+//                                              320       `
+pci-host-common.o/
+pci-host-generic.o/
+dwc/pcie-designware.o/
+dwc/pcie-designware-host.o/
+dwc/pci-imx6.o/
+dwc/pci-layerscape.o/
+dwc/pcie-kirin.o/
+dwc/pcie-al.o/
+dwc/pcie-hisi.o/
+mobiveil/pcie-mobiveil.o/
+mobiveil/pcie-mobiveil-host.o/
+mobiveil/pcie-layerscape-gen4.o/
+pci-thunder-ecam.o/
+pci-thunder-pem.o/
+pci-xgene.o/
+/0              0           0     0     644     3744      `
+/19             0           0     0     644     5472      `
+/39             0           0     0     644     16816     `
+/62             0           0     0     644     21376     `
+/90             0           0     0     644     51848     `
+/106            0           0     0     644     10152     `
+/128            0           0     0     644     11688     `
+/146            0           0     0     644     2872      `
+/161            0           0     0     644     11568     `
+/178            0           0     0     644     7040      `
+/204            0           0     0     644     16024     `
+/235            0           0     0     644     8728      `
+/268            0           0     0     644     5704      `
+/288            0           0     0     644     5168      `
+/307            0           0     0     644     4752      `

@@ -1,0 +1,2 @@
+drivers/staging/fsl_ppfe/pfe_mod.o drivers/staging/fsl_ppfe/pfe_hw.o drivers/staging/fsl_ppfe/pfe_firmware.o drivers/staging/fsl_ppfe/pfe_ctrl.o drivers/staging/fsl_ppfe/pfe_hif.o drivers/staging/fsl_ppfe/pfe_hif_lib.o drivers/staging/fsl_ppfe/pfe_eth.o drivers/staging/fsl_ppfe/pfe_sysfs.o drivers/staging/fsl_ppfe/pfe_debugfs.o drivers/staging/fsl_ppfe/pfe_ls1012a_platform.o drivers/staging/fsl_ppfe/pfe_hal.o drivers/staging/fsl_ppfe/pfe_cdev.o
+

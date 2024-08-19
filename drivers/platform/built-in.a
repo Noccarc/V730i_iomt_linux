@@ -1,0 +1,23 @@
+!<thin>
+//                                              236       `
+chrome/cros_ec.o/
+chrome/cros_ec_i2c.o/
+chrome/cros_ec_spi.o/
+chrome/cros_ec_proto.o/
+chrome/cros_ec_trace.o/
+chrome/cros_ec_chardev.o/
+chrome/cros_ec_lightbar.o/
+chrome/cros_ec_vbc.o/
+chrome/cros_ec_debugfs.o/
+chrome/cros_ec_sysfs.o/
+
+/0              0           0     0     644     10776     `
+/18             0           0     0     644     9872      `
+/40             0           0     0     644     15648     `
+/62             0           0     0     644     14136     `
+/86             0           0     0     644     920       `
+/110            0           0     0     644     13592     `
+/136            0           0     0     644     16152     `
+/163            0           0     0     644     6376      `
+/185            0           0     0     644     14496     `
+/211            0           0     0     644     12272     `

@@ -1,0 +1,83 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_v1-v2_ccimx8mn-dvk.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_v1-v2_ccimx8mn-dvk.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_v1-v2_ccimx8mn-dvk.dts"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 17 "arch/arm64/boot/dts/digi/_ov_board_v1-v2_ccimx8mn-dvk.dts" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/imx8mn-clock.h" 1
+# 18 "arch/arm64/boot/dts/digi/_ov_board_v1-v2_ccimx8mn-dvk.dts" 2
+
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "DVK: version <= 2";
+  };
+ };
+
+ fragment@1 {
+  target = <&lt_bridge>;
+  __overlay__ {
+
+
+
+
+   pinctrl-0 = <&pinctrl_lt8912>;
+   no-hpd;
+  };
+ };
+
+ fragment@2 {
+  target = <&uart3>;
+  __overlay__ {
+
+
+
+
+
+
+
+   pinctrl-0 = <&pinctrl_uart3_rs485>,
+        <&pinctrl_uart3_rs485_re_v1_v2>;
+   rts-gpios = <&gpio1 3 0>;
+  };
+ };
+
+
+ fragment@3 {
+  target = <&i2c2>;
+  __overlay__ {
+   #address-cells = <1>;
+   #size-cells = <0>;
+
+   max98089_v1v2: codec@10 {
+    compatible = "maxim,max98089";
+    reg = <0x10>;
+    clocks = <&clk 157>;
+    clock-names = "mclk";
+    vcc-supply = <&reg_3v3_audio>;
+    dvdd-supply = <&reg_1v8_ext>;
+# 80 "arch/arm64/boot/dts/digi/_ov_board_v1-v2_ccimx8mn-dvk.dts"
+   };
+  };
+ };
+
+ fragment@4 {
+  target = <&sound_max98089>;
+  __overlay__ {
+   audio-codec = <&max98089_v1v2>;
+  };
+ };
+
+
+ fragment@5 {
+  target = <&max98089>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+};

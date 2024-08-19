@@ -1,0 +1,22 @@
+!<thin>
+//                                              150       `
+gpiolib.o/
+gpiolib-devres.o/
+gpiolib-legacy.o/
+gpiolib-devprop.o/
+gpiolib-of.o/
+gpiolib-sysfs.o/
+gpiolib-acpi.o/
+gpio-mmio.o/
+gpio-mca.o/
+gpio-mxc.o/
+/0              0           0     0     644     158640    `
+/11             0           0     0     644     19824     `
+/29             0           0     0     644     7808      `
+/47             0           0     0     644     3312      `
+/66             0           0     0     644     20024     `
+/80             0           0     0     644     23760     `
+/97             0           0     0     644     36512     `
+/113            0           0     0     644     17680     `
+/126            0           0     0     644     16392     `
+/138            0           0     0     644     23192     `

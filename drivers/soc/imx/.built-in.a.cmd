@@ -1,0 +1,1 @@
+cmd_drivers/soc/imx/built-in.a := rm -f drivers/soc/imx/built-in.a; aarch64-dey-linux-ar cDPrST drivers/soc/imx/built-in.a drivers/soc/imx/gpcv2.o drivers/soc/imx/busfreq-imx8mq.o drivers/soc/imx/soc-imx8.o drivers/soc/imx/soc-imx-scu.o drivers/soc/imx/imx8m_pm_domains.o drivers/soc/imx/mu/built-in.a drivers/soc/imx/secvio/built-in.a

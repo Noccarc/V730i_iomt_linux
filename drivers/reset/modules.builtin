@@ -1,0 +1,5 @@
+drivers/reset/reset-dispmix.ko
+drivers/reset/reset-imx7.ko
+drivers/reset/reset-imx-hdmimix.ko
+drivers/reset/reset-imx-audiomix.ko
+drivers/reset/gpio-reset.ko

@@ -1,0 +1,4 @@
+_ov_board_v1-v2_ccimx8mn-dvk.o: \
+ arch/arm64/boot/dts/digi/_ov_board_v1-v2_ccimx8mn-dvk.dts \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/imx8mn-clock.h

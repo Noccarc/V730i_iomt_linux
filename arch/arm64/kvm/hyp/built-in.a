@@ -1,0 +1,25 @@
+!<thin>
+//                                              222       `
+../../../../virt/kvm/arm/hyp/vgic-v3-sr.o/
+../../../../virt/kvm/arm/hyp/timer-sr.o/
+../../../../virt/kvm/arm/hyp/aarch32.o/
+vgic-v2-cpuif-proxy.o/
+sysreg-sr.o/
+debug-sr.o/
+entry.o/
+switch.o/
+fpsimd.o/
+tlb.o/
+hyp-entry.o/
+
+/0              0           0     0     644     14520     `
+/43             0           0     0     644     1568      `
+/84             0           0     0     644     2000      `
+/124            0           0     0     644     2864      `
+/147            0           0     0     644     8616      `
+/160            0           0     0     644     5928      `
+/172            0           0     0     644     2696      `
+/181            0           0     0     644     18256     `
+/191            0           0     0     644     1048      `
+/201            0           0     0     644     7424      `
+/208            0           0     0     644     23648     `

@@ -1,0 +1,1 @@
+cmd_drivers/staging/fsl-dpaa2/evb/built-in.a := rm -f drivers/staging/fsl-dpaa2/evb/built-in.a; aarch64-dey-linux-ar cDPrST drivers/staging/fsl-dpaa2/evb/built-in.a drivers/staging/fsl-dpaa2/evb/evb.o drivers/staging/fsl-dpaa2/evb/dpdmux.o

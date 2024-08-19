@@ -1,0 +1,21 @@
+!<thin>
+//                                              170       `
+vfio.o/
+virqfd.o/
+vfio_iommu_type1.o/
+pci/vfio_pci.o/
+pci/vfio_pci_intrs.o/
+pci/vfio_pci_rdwr.o/
+pci/vfio_pci_config.o/
+fsl-mc/vfio_fsl_mc.o/
+fsl-mc/vfio_fsl_mc_intr.o/
+
+/0              0           0     0     644     58224     `
+/8              0           0     0     644     9600      `
+/18             0           0     0     644     40736     `
+/38             0           0     0     644     41008     `
+/54             0           0     0     644     12880     `
+/76             0           0     0     644     9760      `
+/97             0           0     0     644     27760     `
+/120            0           0     0     644     17464     `
+/142            0           0     0     644     4160      `

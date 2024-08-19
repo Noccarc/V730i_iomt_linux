@@ -1,0 +1,17 @@
+sound/soc/fsl/snd-soc-fsl-asrc.ko
+sound/soc/fsl/snd-soc-fsl-dsp.ko
+sound/soc/fsl/snd-soc-fsl-dsp-cpu.ko
+sound/soc/fsl/snd-soc-fsl-dsp-audiomix.ko
+sound/soc/fsl/snd-soc-fsl-sai.ko
+sound/soc/fsl/snd-soc-fsl-ssi.ko
+sound/soc/fsl/snd-soc-fsl-spdif.ko
+sound/soc/fsl/snd-soc-fsl-esai.ko
+sound/soc/fsl/snd-soc-fsl-utils.ko
+sound/soc/fsl/snd-soc-fsl-easrc.ko
+sound/soc/fsl/snd-soc-imx-audmux.ko
+sound/soc/fsl/imx-pcm-dma.ko
+sound/soc/fsl/imx-pcm-dma-v2.ko
+sound/soc/fsl/imx-pcm-dma.ko
+sound/soc/fsl/snd-soc-imx-max98088.ko
+sound/soc/fsl/snd-soc-imx-spdif.ko
+sound/soc/fsl/snd-soc-imx-mqs.ko

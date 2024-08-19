@@ -1,0 +1,32 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_lpuart3_ccimx8x-sbc-pro.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_lpuart3_ccimx8x-sbc-pro.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_lpuart3_ccimx8x-sbc-pro.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SBC: LPUART3";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&lpuart3>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@2 {
+  target = <&flexcan3>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+};

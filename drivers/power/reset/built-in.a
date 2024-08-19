@@ -1,0 +1,13 @@
+!<thin>
+//                                              92        `
+vexpress-poweroff.o/
+xgene-reboot.o/
+syscon-reboot.o/
+reboot-mode.o/
+syscon-reboot-mode.o/
+
+/0              0           0     0     644     8104      `
+/21             0           0     0     644     4784      `
+/37             0           0     0     644     5200      `
+/54             0           0     0     644     8968      `
+/69             0           0     0     644     5856      `

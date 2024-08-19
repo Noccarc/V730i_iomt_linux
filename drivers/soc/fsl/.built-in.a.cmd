@@ -1,0 +1,1 @@
+cmd_drivers/soc/fsl/built-in.a := rm -f drivers/soc/fsl/built-in.a; aarch64-dey-linux-ar cDPrST drivers/soc/fsl/built-in.a drivers/soc/fsl/qixis_ctrl.o drivers/soc/fsl/guts.o drivers/soc/fsl/dpio/built-in.a drivers/soc/fsl/dpaa2-console.o drivers/soc/fsl/rcpm.o

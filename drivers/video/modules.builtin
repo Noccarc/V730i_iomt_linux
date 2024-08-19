@@ -1,0 +1,17 @@
+drivers/video/backlight/lcd.ko
+drivers/video/backlight/backlight.ko
+drivers/video/backlight/generic_bl.ko
+drivers/video/backlight/gpio_backlight.ko
+drivers/video/backlight/pwm_bl.ko
+drivers/video/fbdev/amba-clcd.ko
+drivers/video/fbdev/mx3fb.ko
+drivers/video/fbdev/core/fb.ko
+drivers/video/fbdev/core/cfbfillrect.ko
+drivers/video/fbdev/core/cfbcopyarea.ko
+drivers/video/fbdev/core/cfbimgblt.ko
+drivers/video/fbdev/core/sysfillrect.ko
+drivers/video/fbdev/core/syscopyarea.ko
+drivers/video/fbdev/core/sysimgblt.ko
+drivers/video/fbdev/core/fb_sys_fops.ko
+drivers/video/fbdev/mxc/mxc_dispdrv.ko
+drivers/video/fbdev/mxc/mxc_edid.ko

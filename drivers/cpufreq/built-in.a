@@ -1,0 +1,31 @@
+!<thin>
+//                                              272       `
+cpufreq.o/
+freq_table.o/
+cpufreq_stats.o/
+cpufreq_performance.o/
+cpufreq_powersave.o/
+cpufreq_userspace.o/
+cpufreq_ondemand.o/
+cpufreq_conservative.o/
+cpufreq_governor.o/
+cpufreq_governor_attr_set.o/
+cpufreq-dt.o/
+cpufreq-dt-platdev.o/
+imx-cpufreq-dt.o/
+qoriq-cpufreq.o/
+
+/0              0           0     0     644     93640     `
+/11             0           0     0     644     12816     `
+/25             0           0     0     644     7512      `
+/42             0           0     0     644     4024      `
+/65             0           0     0     644     3848      `
+/86             0           0     0     644     7512      `
+/107            0           0     0     644     17592     `
+/127            0           0     0     644     10552     `
+/151            0           0     0     644     18408     `
+/171            0           0     0     644     6448      `
+/200            0           0     0     644     11896     `
+/214            0           0     0     644     21784     `
+/236            0           0     0     644     6576      `
+/254            0           0     0     644     13112     `

@@ -1,0 +1,4 @@
+drivers/phy/freescale/phy-fsl-imx8mp-lvds.ko
+drivers/phy/freescale/phy-fsl-imx8mq-usb.ko
+drivers/phy/freescale/phy-fsl-imx8-mipi-dphy.ko
+drivers/phy/freescale/phy-fsl-imx8-pcie.ko

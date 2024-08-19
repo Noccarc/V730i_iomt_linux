@@ -1,0 +1,4 @@
+drivers/net/ethernet/freescale/enetc/fsl-enetc.ko
+drivers/net/ethernet/freescale/enetc/fsl-enetc-vf.ko
+drivers/net/ethernet/freescale/enetc/fsl-enetc-mdio.ko
+drivers/net/ethernet/freescale/enetc/fsl-enetc-ptp.ko

@@ -1,0 +1,8 @@
+drivers/platform/chrome/cros_ec.ko
+drivers/platform/chrome/cros_ec_i2c.ko
+drivers/platform/chrome/cros_ec_spi.ko
+drivers/platform/chrome/cros_ec_chardev.ko
+drivers/platform/chrome/cros_ec_lightbar.ko
+drivers/platform/chrome/cros_ec_vbc.ko
+drivers/platform/chrome/cros_ec_debugfs.ko
+drivers/platform/chrome/cros_ec_sysfs.ko

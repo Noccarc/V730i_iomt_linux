@@ -1,0 +1,3 @@
+drivers/gpio/gpio-generic.ko
+drivers/gpio/gpio-mca.ko
+drivers/gpio/gpio-mxc.ko

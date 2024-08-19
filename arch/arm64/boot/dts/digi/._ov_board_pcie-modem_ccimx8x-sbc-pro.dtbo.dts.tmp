@@ -1,0 +1,58 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_pcie-modem_ccimx8x-sbc-pro.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_pcie-modem_ccimx8x-sbc-pro.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_pcie-modem_ccimx8x-sbc-pro.dts"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 17 "arch/arm64/boot/dts/digi/_ov_board_pcie-modem_ccimx8x-sbc-pro.dts" 2
+
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SBC: PCIe Modems";
+  };
+ };
+
+
+
+
+
+ fragment@1 {
+  target-path = "/";
+  __overlay__ {
+   pcie_modem_reset: modem_reset {
+    compatible = "gpio-reset";
+    reset-gpios = <&lsio_gpio3 16 1>;
+    reset-delay-us = <21000>;
+    #reset-cells = <0>;
+   };
+  };
+ };
+
+
+
+
+
+ fragment@2 {
+  target = <&pcieb>;
+  __overlay__ {
+   resets = <&pcie_modem_reset>;
+   disable-gpio = <&lsio_gpio0 30 0>;
+   vpcie-supply = <&reg_3v3_pcie>;
+   status = "okay";
+  };
+ };
+
+
+
+ fragment@3 {
+  target = <&reg_3v3_pcie>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+};

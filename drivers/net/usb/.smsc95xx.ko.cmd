@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/smsc95xx.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/net/usb/smsc95xx.ko drivers/net/usb/smsc95xx.o drivers/net/usb/smsc95xx.mod.o;  true

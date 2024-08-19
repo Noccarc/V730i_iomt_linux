@@ -1,0 +1,1 @@
+cmd_drivers/mxc/hantro_vc8000e/built-in.a := rm -f drivers/mxc/hantro_vc8000e/built-in.a; aarch64-dey-linux-ar cDPrST drivers/mxc/hantro_vc8000e/built-in.a drivers/mxc/hantro_vc8000e/hx280enc_vc8000e.o

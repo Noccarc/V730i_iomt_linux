@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/scheduler/gpu-sched.o := aarch64-dey-linux-ld  -EL  -maarch64elf    -r -o drivers/gpu/drm/scheduler/gpu-sched.o drivers/gpu/drm/scheduler/sched_main.o drivers/gpu/drm/scheduler/sched_fence.o drivers/gpu/drm/scheduler/sched_entity.o

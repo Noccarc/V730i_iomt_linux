@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/imx8/built-in.a := rm -f drivers/media/platform/imx8/built-in.a; aarch64-dey-linux-ar cDPrST drivers/media/platform/imx8/built-in.a drivers/media/platform/imx8/mxc-mipi-csi2_yav.o

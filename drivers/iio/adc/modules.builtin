@@ -1,0 +1,2 @@
+drivers/iio/adc/imx8qxp_adc.ko
+drivers/iio/adc/mca-adc.ko

@@ -1,0 +1,67 @@
+!<thin>
+//                                              852       `
+i2c/ov5640.o/
+mc/mc-device.o/
+mc/mc-devnode.o/
+mc/mc-entity.o/
+mc/mc-request.o/
+mc/mc-dev-allocator.o/
+v4l2-core/v4l2-fwnode.o/
+v4l2-core/v4l2-dev.o/
+v4l2-core/v4l2-ioctl.o/
+v4l2-core/v4l2-device.o/
+v4l2-core/v4l2-fh.o/
+v4l2-core/v4l2-event.o/
+v4l2-core/v4l2-ctrls.o/
+v4l2-core/v4l2-subdev.o/
+v4l2-core/v4l2-clk.o/
+v4l2-core/v4l2-async.o/
+v4l2-core/v4l2-common.o/
+v4l2-core/v4l2-compat-ioctl32.o/
+v4l2-core/v4l2-mc.o/
+v4l2-core/v4l2-spi.o/
+v4l2-core/v4l2-i2c.o/
+v4l2-core/v4l2-dv-timings.o/
+v4l2-core/v4l2-mem2mem.o/
+common/videobuf2/videobuf2-core.o/
+common/videobuf2/videobuf2-v4l2.o/
+common/videobuf2/videobuf2-memops.o/
+common/videobuf2/videobuf2-vmalloc.o/
+common/videobuf2/videobuf2-dma-contig.o/
+platform/imx8/mxc-mipi-csi2_yav.o/
+platform/mxc/capture/mx6s_capture.o/
+platform/mxc/capture/mxc_mipi_csi.o/
+platform/mxc/capture/ov5640_mipi_v2.o/
+
+/0              0           0     0     644     39704     `
+/14             0           0     0     644     27968     `
+/30             0           0     0     644     11384     `
+/47             0           0     0     644     36680     `
+/63             0           0     0     644     18672     `
+/80             0           0     0     644     5672      `
+/103            0           0     0     644     27416     `
+/128            0           0     0     644     45528     `
+/150            0           0     0     644     100480    `
+/174            0           0     0     644     13968     `
+/199            0           0     0     644     10496     `
+/220            0           0     0     644     16624     `
+/244            0           0     0     644     148616    `
+/268            0           0     0     644     20360     `
+/293            0           0     0     644     17464     `
+/315            0           0     0     644     23944     `
+/339            0           0     0     644     13376     `
+/364            0           0     0     644     68008     `
+/397            0           0     0     644     14056     `
+/418            0           0     0     644     4520      `
+/440            0           0     0     644     9328      `
+/462            0           0     0     644     41160     `
+/491            0           0     0     644     57240     `
+/517            0           0     0     644     83848     `
+/552            0           0     0     644     50976     `
+/587            0           0     0     644     5656      `
+/624            0           0     0     644     14128     `
+/662            0           0     0     644     21640     `
+/703            0           0     0     644     20000     `
+/738            0           0     0     644     42400     `
+/775            0           0     0     644     31704     `
+/812            0           0     0     644     36072     `

@@ -1,0 +1,9 @@
+drivers/dma/virt-dma.ko
+drivers/dma/dmatest.ko
+drivers/dma/fsl-edma.ko
+drivers/dma/fsl-edma-common.ko
+drivers/dma/fsl-edma-v3.ko
+drivers/dma/imx-sdma.ko
+drivers/dma/pl330.ko
+drivers/dma/qcom/hdma_mgmt.ko
+drivers/dma/qcom/hdma.ko

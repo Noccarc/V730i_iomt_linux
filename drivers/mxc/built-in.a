@@ -1,0 +1,117 @@
+!<thin>
+//                                              2672      `
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_device.o/
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_linux.o/
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_math.o/
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_os.o/
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_debug.o/
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_debugfs.o/
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_allocator.o/
+gpu-viv/hal/os/linux/kernel/allocator/default/gc_hal_kernel_allocator_user_memory.o/
+gpu-viv/hal/os/linux/kernel/allocator/default/gc_hal_kernel_allocator_dma.o/
+gpu-viv/hal/os/linux/kernel/allocator/default/gc_hal_kernel_allocator_gfp.o/
+gpu-viv/hal/os/linux/kernel/allocator/default/gc_hal_kernel_allocator_reserved_mem.o/
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_driver.o/
+gpu-viv/hal/os/linux/kernel/platform/freescale/gc_hal_kernel_platform_imx.o/
+gpu-viv/hal/os/linux/kernel/allocator/default/gc_hal_kernel_allocator_dmabuf.o/
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_iommu.o/
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_drm.o/
+gpu-viv/hal/kernel/gc_hal_kernel.o/
+gpu-viv/hal/kernel/gc_hal_kernel_command.o/
+gpu-viv/hal/kernel/gc_hal_kernel_db.o/
+gpu-viv/hal/kernel/gc_hal_kernel_event.o/
+gpu-viv/hal/kernel/gc_hal_kernel_heap.o/
+gpu-viv/hal/kernel/gc_hal_kernel_mmu.o/
+gpu-viv/hal/kernel/gc_hal_kernel_video_memory.o/
+gpu-viv/hal/kernel/gc_hal_kernel_power.o/
+gpu-viv/hal/kernel/gc_hal_kernel_security_v1.o/
+gpu-viv/hal/kernel/arch/gc_hal_kernel_context.o/
+gpu-viv/hal/kernel/arch/gc_hal_kernel_hardware.o/
+gpu-viv/hal/kernel/arch/gc_hal_kernel_hardware_func.o/
+gpu-viv/hal/kernel/arch/gc_hal_kernel_hardware_func_flop_reset.o/
+gpu-viv/hal/kernel/arch/gc_hal_kernel_hardware_async_fe.o/
+gpu-viv/hal/kernel/arch/gc_hal_kernel_hardware_mc_fe.o/
+gpu-viv/hal/kernel/arch/gc_hal_kernel_hardware_waitlink_fe.o/
+gpu-viv/hal/kernel/arch/gc_hal_kernel_recorder.o/
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_sync.o/
+gpu-viv/hal/os/linux/kernel/allocator/freescale/gc_hal_kernel_allocator_cma.o/
+gpu-viv/hal/os/linux/kernel/gc_hal_kernel_security_channel_emulator.o/
+gpu-viv/hal/security_v1/gc_hal_ta.o/
+gpu-viv/hal/security_v1/gc_hal_ta_hardware.o/
+gpu-viv/hal/security_v1/gc_hal_ta_mmu.o/
+gpu-viv/hal/security_v1/os/emulator/gc_hal_ta_emulator.o/
+hantro/hantrodec.o/
+hantro_845/hantrodec_845s.o/
+hantro_845_h1/hx280enc.o/
+hantro_vc8000e/hx280enc_vc8000e.o/
+vpu_malone/vpu_b0.o/
+vpu_malone/vpu_rpc.o/
+vpu_malone/insert_startcode.o/
+vpu_malone/vpu_debug_log.o/
+vpu_malone/vpu_mu.o/
+vpu_malone/vpu_pm.o/
+vpu_windsor/vpu_encoder_b0.o/
+vpu_windsor/vpu_encoder_ctrl.o/
+vpu_windsor/vpu_event_msg.o/
+vpu_windsor/vpu_encoder_mem.o/
+vpu_windsor/vpu_encoder_rpc.o/
+vpu_windsor/vpu_encoder_mu.o/
+vpu_windsor/vpu_encoder_pm.o/
+
+/0              0           0     0     644     43136     `
+/52             0           0     0     644     5064      `
+/103            0           0     0     644     1280      `
+/153            0           0     0     644     60680     `
+/201            0           0     0     644     20304     `
+/252            0           0     0     644     3992      `
+/305            0           0     0     644     4488      `
+/360            0           0     0     644     14088     `
+/445            0           0     0     644     8040      `
+/522            0           0     0     644     18192     `
+/599            0           0     0     644     10120     `
+/685            0           0     0     644     45528     `
+/737            0           0     0     644     30400     `
+/814            0           0     0     644     10336     `
+/894            0           0     0     644     3096      `
+/945            0           0     0     644     14184     `
+/994            0           0     0     644     50048     `
+/1030           0           0     0     644     32224     `
+/1074           0           0     0     644     15904     `
+/1113           0           0     0     644     18040     `
+/1155           0           0     0     644     6104      `
+/1196           0           0     0     644     22200     `
+/1236           0           0     0     644     33928     `
+/1285           0           0     0     644     928       `
+/1327           0           0     0     644     3896      `
+/1375           0           0     0     644     28192     `
+/1424           0           0     0     644     113056    `
+/1474           0           0     0     644     13288     `
+/1529           0           0     0     644     18672     `
+/1595           0           0     0     644     4816      `
+/1654           0           0     0     644     7760      `
+/1710           0           0     0     644     7168      `
+/1772           0           0     0     644     6592      `
+/1822           0           0     0     644     5144      `
+/1872           0           0     0     644     8232      `
+/1951           0           0     0     644     1816      `
+/2022           0           0     0     644     4736      `
+/2059           0           0     0     644     23000     `
+/2105           0           0     0     644     5760      `
+/2146           0           0     0     644     6304      `
+/2204           0           0     0     644     55584     `
+/2224           0           0     0     644     49760     `
+/2253           0           0     0     644     27832     `
+/2279           0           0     0     644     35544     `
+/2314           0           0     0     644     172440    `
+/2335           0           0     0     644     4400      `
+/2357           0           0     0     644     11360     `
+/2388           0           0     0     644     4296      `
+/2416           0           0     0     644     6384      `
+/2437           0           0     0     644     4120      `
+/2458           0           0     0     644     147640    `
+/2488           0           0     0     644     18632     `
+/2520           0           0     0     644     8616      `
+/2549           0           0     0     644     16136     `
+/2580           0           0     0     644     4600      `
+/2611           0           0     0     644     5840      `
+/2641           0           0     0     644     4848      `

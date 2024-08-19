@@ -1,0 +1,4 @@
+drivers/gpu/drm/scheduler/gpu-sched.ko
+drivers/gpu/drm/pl111/pl111_drm.ko
+drivers/gpu/drm/lima/lima.ko
+drivers/gpu/drm/panfrost/panfrost.ko

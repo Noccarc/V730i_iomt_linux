@@ -1,0 +1,87 @@
+!<thin>
+//                                              766       `
+soc-core.o/
+soc-dapm.o/
+soc-jack.o/
+soc-utils.o/
+soc-dai.o/
+soc-component.o/
+soc-pcm.o/
+soc-io.o/
+soc-devres.o/
+soc-ops.o/
+soc-generic-dmaengine-pcm.o/
+soc-compress.o/
+codecs/fsl_mqs.o/
+codecs/max98088.o/
+generic/simple-card-utils.o/
+generic/simple-card.o/
+fsl/fsl_asrc.o/
+fsl/fsl_asrc_dma.o/
+fsl/fsl_dsp.o/
+fsl/fsl_dsp_proxy.o/
+fsl/fsl_dsp_pool.o/
+fsl/fsl_dsp_library_load.o/
+fsl/fsl_dsp_xaf_api.o/
+fsl/fsl_dsp_platform_compress.o/
+fsl/fsl_dsp_cpu.o/
+fsl/fsl_dsp_audiomix.o/
+fsl/fsl_sai.o/
+fsl/fsl_sai_sysfs.o/
+fsl/fsl_ssi.o/
+fsl/fsl_ssi_dbg.o/
+fsl/fsl_spdif.o/
+fsl/fsl_esai.o/
+fsl/fsl_esai_mix.o/
+fsl/fsl_utils.o/
+fsl/fsl_easrc.o/
+fsl/fsl_easrc_dma.o/
+fsl/imx-audmux.o/
+fsl/imx-pcm-dma.o/
+fsl/imx-pcm-dma-v2.o/
+fsl/imx-max98088.o/
+fsl/imx-spdif.o/
+fsl/imx-mqs.o/
+
+/0              0           0     0     644     93992     `
+/12             0           0     0     644     94992     `
+/24             0           0     0     644     17600     `
+/36             0           0     0     644     9784      `
+/49             0           0     0     644     13840     `
+/60             0           0     0     644     20832     `
+/77             0           0     0     644     58176     `
+/88             0           0     0     644     9736      `
+/98             0           0     0     644     6112      `
+/112            0           0     0     644     28048     `
+/123            0           0     0     644     14512     `
+/152            0           0     0     644     17624     `
+/168            0           0     0     644     11720     `
+/186            0           0     0     644     96024     `
+/205            0           0     0     644     28296     `
+/234            0           0     0     644     16912     `
+/257            0           0     0     644     48144     `
+/273            0           0     0     644     12792     `
+/293            0           0     0     644     41776     `
+/308            0           0     0     644     15808     `
+/329            0           0     0     644     2632      `
+/349            0           0     0     644     6344      `
+/377            0           0     0     644     7624      `
+/400            0           0     0     644     50048     `
+/433            0           0     0     644     6464      `
+/452            0           0     0     644     9568      `
+/476            0           0     0     644     34648     `
+/491            0           0     0     644     10864     `
+/512            0           0     0     644     25016     `
+/527            0           0     0     644     5776      `
+/546            0           0     0     644     28904     `
+/563            0           0     0     644     28144     `
+/579            0           0     0     644     8192      `
+/599            0           0     0     644     4120      `
+/616            0           0     0     644     63424     `
+/633            0           0     0     644     12712     `
+/654            0           0     0     644     16800     `
+/672            0           0     0     644     3496      `
+/691            0           0     0     644     7872      `
+/713            0           0     0     644     16336     `
+/733            0           0     0     644     7080      `
+/750            0           0     0     644     12192     `

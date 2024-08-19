@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/tcpm/built-in.a := rm -f drivers/usb/typec/tcpm/built-in.a; aarch64-dey-linux-ar cDPrST drivers/usb/typec/tcpm/built-in.a drivers/usb/typec/tcpm/tcpm.o drivers/usb/typec/tcpm/tcpci.o

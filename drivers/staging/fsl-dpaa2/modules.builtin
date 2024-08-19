@@ -1,0 +1,2 @@
+drivers/staging/fsl-dpaa2/evb/dpaa2-evb.ko
+drivers/staging/fsl-dpaa2/mac/dpaa2-mac.ko

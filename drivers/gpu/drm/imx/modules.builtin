@@ -1,0 +1,13 @@
+drivers/gpu/drm/imx/imxdrm.ko
+drivers/gpu/drm/imx/parallel-display.ko
+drivers/gpu/drm/imx/imx-tve.ko
+drivers/gpu/drm/imx/imx-ldb.ko
+drivers/gpu/drm/imx/imx8qm-ldb.ko
+drivers/gpu/drm/imx/imx8qxp-ldb.ko
+drivers/gpu/drm/imx/imx8mp-ldb.ko
+drivers/gpu/drm/imx/dw_hdmi-imx.ko
+drivers/gpu/drm/imx/imx8mp-hdmi-pavi.ko
+drivers/gpu/drm/imx/sec_mipi_dsim-imx.ko
+drivers/gpu/drm/imx/dpu/imx-dpu-crtc.ko
+drivers/gpu/drm/imx/dpu/imx-dpu-render.ko
+drivers/gpu/drm/imx/lcdif/imx-lcdif-crtc.ko

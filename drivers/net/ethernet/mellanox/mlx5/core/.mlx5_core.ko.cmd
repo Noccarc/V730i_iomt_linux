@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/mellanox/mlx5/core/mlx5_core.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/net/ethernet/mellanox/mlx5/core/mlx5_core.ko drivers/net/ethernet/mellanox/mlx5/core/mlx5_core.o drivers/net/ethernet/mellanox/mlx5/core/mlx5_core.mod.o;  true

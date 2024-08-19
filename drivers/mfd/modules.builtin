@@ -1,0 +1,5 @@
+drivers/mfd/cros_ec_dev.ko
+drivers/mfd/imx-audiomix.ko
+drivers/mfd/mfd-core.ko
+drivers/mfd/rohm-bd718x7.ko
+drivers/mfd/pca9450.ko
