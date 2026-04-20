@@ -1,2 +1,0 @@
-drivers/bluetooth/btdigi.o
-

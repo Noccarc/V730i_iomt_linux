@@ -1,3 +1,0 @@
-drivers/usb/phy/phy-generic.ko
-drivers/usb/phy/phy-gpio-vbus-usb.ko
-drivers/usb/phy/phy-mxs-usb.ko

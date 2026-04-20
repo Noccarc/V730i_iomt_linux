@@ -1,3 +1,0 @@
-drivers/leds/trigger/ledtrig-timer.ko
-drivers/leds/trigger/ledtrig-heartbeat.ko
-drivers/leds/trigger/ledtrig-default-on.ko

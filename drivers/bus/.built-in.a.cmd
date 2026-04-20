@@ -1,1 +1,0 @@
-cmd_drivers/bus/built-in.a := rm -f drivers/bus/built-in.a; aarch64-dey-linux-ar cDPrST drivers/bus/built-in.a drivers/bus/brcmstb_gisb.o drivers/bus/fsl-mc/built-in.a drivers/bus/simple-pm-bus.o drivers/bus/vexpress-config.o

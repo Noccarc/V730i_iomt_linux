@@ -1,3 +1,0 @@
-_ov_board_pcie-modem_ccimx8x-sbc-pro.o: \
- arch/arm64/boot/dts/digi/_ov_board_pcie-modem_ccimx8x-sbc-pro.dts \
- scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h

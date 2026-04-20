@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/imx/lcdif/built-in.a := rm -f drivers/gpu/drm/imx/lcdif/built-in.a; aarch64-dey-linux-ar cDPrST drivers/gpu/drm/imx/lcdif/built-in.a drivers/gpu/drm/imx/lcdif/lcdif-crtc.o drivers/gpu/drm/imx/lcdif/lcdif-plane.o drivers/gpu/drm/imx/lcdif/lcdif-kms.o
