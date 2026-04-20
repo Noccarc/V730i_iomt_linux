@@ -1,5 +1,5 @@
 !<thin>
-//                                              6200      `
+//                                              6128      `
 mii.o/
 Space.o/
 loopback.o/
@@ -140,11 +140,6 @@ ethernet/stmicro/stmmac/dwxgmac2_descs.o/
 ethernet/stmicro/stmmac/stmmac_platform.o/
 ethernet/stmicro/stmmac/dwmac-imx.o/
 ethernet/stmicro/stmmac/dwmac-generic.o/
-ppp/ppp_generic.o/
-ppp/ppp_async.o/
-ppp/bsd_comp.o/
-ppp/ppp_deflate.o/
-slip/slhc.o/
 wireless/intersil/hostap/hostap_80211_rx.o/
 wireless/intersil/hostap/hostap_80211_tx.o/
 wireless/intersil/hostap/hostap_ap.o/
@@ -152,6 +147,7 @@ wireless/intersil/hostap/hostap_info.o/
 wireless/intersil/hostap/hostap_ioctl.o/
 wireless/intersil/hostap/hostap_main.o/
 wireless/intersil/hostap/hostap_proc.o/
+usb/r8152.o/
 usb/asix_devices.o/
 usb/asix_common.o/
 usb/ax88172a.o/
@@ -165,7 +161,6 @@ usb/usbnet.o/
 usb/cdc_ncm.o/
 usb/qmi_wwan.o/
 net_failover.o/
-
 /0              0           0     0     644     15720     `
 /7              0           0     0     644     2856      `
 /16             0           0     0     644     11296     `
@@ -306,28 +301,24 @@ net_failover.o/
 /5489           0           0     0     644     24888     `
 /5532           0           0     0     644     12328     `
 /5569           0           0     0     644     7288      `
-/5610           0           0     0     644     60808     `
-/5629           0           0     0     644     24176     `
-/5646           0           0     0     644     10072     `
-/5662           0           0     0     644     10928     `
-/5681           0           0     0     644     11768     `
-/5694           0           0     0     644     19208     `
-/5738           0           0     0     644     11776     `
-/5782           0           0     0     644     72224     `
-/5820           0           0     0     644     12376     `
-/5860           0           0     0     644     50600     `
-/5901           0           0     0     644     39560     `
-/5941           0           0     0     644     17096     `
-/5981           0           0     0     644     30792     `
-/6001           0           0     0     644     21736     `
-/6020           0           0     0     644     11224     `
-/6036           0           0     0     644     32984     `
-/6056           0           0     0     644     17112     `
-/6073           0           0     0     644     8320      `
-/6088           0           0     0     644     17864     `
-/6106           0           0     0     644     6120      `
-/6124           0           0     0     644     8240      `
-/6138           0           0     0     644     75864     `
-/6152           0           0     0     644     44776     `
-/6167           0           0     0     644     46432     `
-/6183           0           0     0     644     22184     `
+/5610           0           0     0     644     19208     `
+/5654           0           0     0     644     11776     `
+/5698           0           0     0     644     72224     `
+/5736           0           0     0     644     12376     `
+/5776           0           0     0     644     50600     `
+/5817           0           0     0     644     39560     `
+/5857           0           0     0     644     17096     `
+/5897           0           0     0     644     103456    `
+/5910           0           0     0     644     30792     `
+/5930           0           0     0     644     21736     `
+/5949           0           0     0     644     11224     `
+/5965           0           0     0     644     32984     `
+/5985           0           0     0     644     17112     `
+/6002           0           0     0     644     8320      `
+/6017           0           0     0     644     17864     `
+/6035           0           0     0     644     6120      `
+/6053           0           0     0     644     8240      `
+/6067           0           0     0     644     75864     `
+/6081           0           0     0     644     44776     `
+/6096           0           0     0     644     46432     `
+/6112           0           0     0     644     22184     `

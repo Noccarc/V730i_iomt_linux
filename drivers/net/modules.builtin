@@ -39,11 +39,7 @@ drivers/net/phy/realtek.ko
 drivers/net/phy/rockchip.ko
 drivers/net/phy/smsc.ko
 drivers/net/phy/vitesse.ko
-drivers/net/ppp/ppp_generic.ko
-drivers/net/ppp/ppp_async.ko
-drivers/net/ppp/bsd_comp.ko
-drivers/net/ppp/ppp_deflate.ko
-drivers/net/slip/slhc.ko
+drivers/net/usb/r8152.ko
 drivers/net/usb/asix.ko
 drivers/net/usb/ax88179_178a.ko
 drivers/net/usb/cdc_ether.ko

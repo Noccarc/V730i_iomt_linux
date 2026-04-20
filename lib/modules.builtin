@@ -1,5 +1,4 @@
 lib/bitrev.ko
-lib/crc-ccitt.ko
 lib/crc16.ko
 lib/crc-t10dif.ko
 lib/crc-itu-t.ko

@@ -381,11 +381,7 @@ drivers/net/phy/realtek.ko
 drivers/net/phy/rockchip.ko
 drivers/net/phy/smsc.ko
 drivers/net/phy/vitesse.ko
-drivers/net/ppp/ppp_generic.ko
-drivers/net/ppp/ppp_async.ko
-drivers/net/ppp/bsd_comp.ko
-drivers/net/ppp/ppp_deflate.ko
-drivers/net/slip/slhc.ko
+drivers/net/usb/r8152.ko
 drivers/net/usb/asix.ko
 drivers/net/usb/ax88179_178a.ko
 drivers/net/usb/cdc_ether.ko
@@ -668,7 +664,6 @@ net/wireless/lib80211_crypt_ccmp.ko
 net/wireless/lib80211_crypt_tkip.ko
 arch/arm64/lib/crc32.ko
 lib/bitrev.ko
-lib/crc-ccitt.ko
 lib/crc16.ko
 lib/crc-t10dif.ko
 lib/crc-itu-t.ko
