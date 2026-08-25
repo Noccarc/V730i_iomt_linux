@@ -1,0 +1,9 @@
+drivers/staging/media/imx/imx8-media-dev.ko
+drivers/staging/media/imx/imx8-capture.ko
+drivers/staging/media/imx/imx8-isi-cap.ko
+drivers/staging/media/imx/imx8-isi-m2m.ko
+drivers/staging/media/imx/imx8-isi-hw.ko
+drivers/staging/media/imx/imx8-mipi-csi2.ko
+drivers/staging/media/imx/imx8-mipi-csi2-sam.ko
+drivers/staging/media/imx/imx8-parallel-csi.ko
+drivers/staging/media/imx/gmsl-max9286.ko

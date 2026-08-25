@@ -1,0 +1,1 @@
+cmd_drivers/mxc/vpu_malone/built-in.a := rm -f drivers/mxc/vpu_malone/built-in.a; aarch64-dey-linux-ar cDPrST drivers/mxc/vpu_malone/built-in.a drivers/mxc/vpu_malone/vpu_b0.o drivers/mxc/vpu_malone/vpu_rpc.o drivers/mxc/vpu_malone/insert_startcode.o drivers/mxc/vpu_malone/vpu_debug_log.o drivers/mxc/vpu_malone/vpu_mu.o drivers/mxc/vpu_malone/vpu_pm.o

@@ -1,0 +1,1 @@
+cmd_fs/nfs/flexfilelayout/nfs_layout_flexfiles.o := aarch64-dey-linux-ld  -EL  -maarch64elf    -r -o fs/nfs/flexfilelayout/nfs_layout_flexfiles.o fs/nfs/flexfilelayout/flexfilelayout.o fs/nfs/flexfilelayout/flexfilelayoutdev.o

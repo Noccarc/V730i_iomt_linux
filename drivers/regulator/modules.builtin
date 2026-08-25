@@ -1,0 +1,6 @@
+drivers/regulator/fixed.ko
+drivers/regulator/bd718x7-regulator.ko
+drivers/regulator/gpio-regulator.ko
+drivers/regulator/pca9450-regulator.ko
+drivers/regulator/pf8x00-sc-regulator.ko
+drivers/regulator/pwm-regulator.ko

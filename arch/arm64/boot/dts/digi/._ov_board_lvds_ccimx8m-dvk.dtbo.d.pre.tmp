@@ -1,0 +1,2 @@
+_ov_board_lvds_ccimx8m-dvk.o: \
+ arch/arm64/boot/dts/digi/_ov_board_lvds_ccimx8m-dvk.dts

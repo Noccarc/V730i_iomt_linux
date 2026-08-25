@@ -1,0 +1,3 @@
+drivers/mailbox/arm_mhu.ko
+drivers/mailbox/imx-mailbox.ko
+drivers/mailbox/platform_mhu.ko

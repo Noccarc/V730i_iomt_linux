@@ -1,0 +1,5 @@
+drivers/char/virtio_console.ko
+drivers/char/hw_random/rng-core.ko
+drivers/char/hw_random/imx-rngc.ko
+drivers/char/hw_random/cavium-rng.ko
+drivers/char/hw_random/cavium-rng-vf.ko

@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/crct10dif-ce.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o arch/arm64/crypto/crct10dif-ce.ko arch/arm64/crypto/crct10dif-ce.o arch/arm64/crypto/crct10dif-ce.mod.o;  true

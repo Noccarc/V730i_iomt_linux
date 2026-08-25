@@ -1,0 +1,5 @@
+drivers/usb/serial/usbserial.ko
+drivers/usb/serial/option.ko
+drivers/usb/serial/qcserial.ko
+drivers/usb/serial/sierra.ko
+drivers/usb/serial/usb_wwan.ko

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/mxsfb/built-in.a := rm -f drivers/gpu/drm/mxsfb/built-in.a; aarch64-dey-linux-ar cDPrST drivers/gpu/drm/mxsfb/built-in.a drivers/gpu/drm/mxsfb/mxsfb_drv.o drivers/gpu/drm/mxsfb/mxsfb_crtc.o drivers/gpu/drm/mxsfb/mxsfb_out.o

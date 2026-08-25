@@ -1,0 +1,46 @@
+!<thin>
+//                                              366       `
+keys/gc.o/
+keys/key.o/
+keys/keyring.o/
+keys/keyctl.o/
+keys/permission.o/
+keys/process_keys.o/
+keys/request_key.o/
+keys/request_key_auth.o/
+keys/user_defined.o/
+keys/compat.o/
+keys/compat_dh.o/
+keys/proc.o/
+keys/sysctl.o/
+keys/dh.o/
+keys/keyctl_pkey.o/
+commoncap.o/
+min_addr.o/
+security.o/
+lsm_audit.o/
+device_cgroup.o/
+integrity/iint.o/
+integrity/integrity_audit.o/
+/0              0           0     0     644     10872     `
+/11             0           0     0     644     31200     `
+/23             0           0     0     644     28936     `
+/39             0           0     0     644     27664     `
+/54             0           0     0     644     3680      `
+/73             0           0     0     644     15120     `
+/94             0           0     0     644     16064     `
+/114            0           0     0     644     7344      `
+/139            0           0     0     644     11368     `
+/160            0           0     0     644     4496      `
+/175            0           0     0     644     2200      `
+/193            0           0     0     644     9232      `
+/206            0           0     0     644     2528      `
+/221            0           0     0     644     9176      `
+/232            0           0     0     644     6840      `
+/252            0           0     0     644     17808     `
+/265            0           0     0     644     2776      `
+/277            0           0     0     644     89424     `
+/289            0           0     0     644     9752      `
+/302            0           0     0     644     10016     `
+/319            0           0     0     644     6832      `
+/337            0           0     0     644     4272      `

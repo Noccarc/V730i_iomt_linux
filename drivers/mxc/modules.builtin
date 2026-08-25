@@ -1,0 +1,7 @@
+drivers/mxc/gpu-viv/galcore.ko
+drivers/mxc/hantro/hantrodec.ko
+drivers/mxc/hantro_845/hantrodec_845s.ko
+drivers/mxc/hantro_845_h1/hx280enc.ko
+drivers/mxc/hantro_vc8000e/hx280enc_vc8000e.ko
+drivers/mxc/vpu_malone/vpu-malone.ko
+drivers/mxc/vpu_windsor/vpu-windsor.ko

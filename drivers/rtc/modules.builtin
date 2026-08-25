@@ -1,0 +1,6 @@
+drivers/rtc/rtc-cros-ec.ko
+drivers/rtc/rtc-efi.ko
+drivers/rtc/rtc-fsl-ftm-alarm.ko
+drivers/rtc/rtc-imx-sc.ko
+drivers/rtc/rtc-mca.ko
+drivers/rtc/rtc-snvs.ko

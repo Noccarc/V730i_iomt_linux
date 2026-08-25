@@ -1,0 +1,20 @@
+!<thin>
+//                                              124       `
+mtdcore.o/
+mtdsuper.o/
+mtdconcat.o/
+mtdpart.o/
+mtdchar.o/
+mtdcrypt.o/
+parsers/ofpart.o/
+chips/chipreg.o/
+spi-nor/spi-nor.o/
+/0              0           0     0     644     74048     `
+/11             0           0     0     644     6416      `
+/23             0           0     0     644     14472     `
+/36             0           0     0     644     27896     `
+/47             0           0     0     644     20352     `
+/58             0           0     0     644     26544     `
+/70             0           0     0     644     8648      `
+/88             0           0     0     644     7344      `
+/105            0           0     0     644     66744     `

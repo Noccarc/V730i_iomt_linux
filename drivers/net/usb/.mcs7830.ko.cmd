@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/mcs7830.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/net/usb/mcs7830.ko drivers/net/usb/mcs7830.o drivers/net/usb/mcs7830.mod.o;  true

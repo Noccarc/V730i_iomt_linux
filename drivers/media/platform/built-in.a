@@ -1,0 +1,10 @@
+!<thin>
+//                                              112       `
+imx8/mxc-mipi-csi2_yav.o/
+mxc/capture/mx6s_capture.o/
+mxc/capture/mxc_mipi_csi.o/
+mxc/capture/ov5640_mipi_v2.o/
+/0              0           0     0     644     20000     `
+/26             0           0     0     644     42400     `
+/54             0           0     0     644     31704     `
+/82             0           0     0     644     36072     `

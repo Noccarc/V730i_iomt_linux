@@ -1,0 +1,1 @@
+cmd_drivers/staging/fsl-dpaa2/mac/built-in.a := rm -f drivers/staging/fsl-dpaa2/mac/built-in.a; aarch64-dey-linux-ar cDPrST drivers/staging/fsl-dpaa2/mac/built-in.a drivers/staging/fsl-dpaa2/mac/mac.o drivers/staging/fsl-dpaa2/mac/dpmac.o

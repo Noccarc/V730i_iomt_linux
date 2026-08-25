@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc_mbim.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/net/usb/cdc_mbim.ko drivers/net/usb/cdc_mbim.o drivers/net/usb/cdc_mbim.mod.o;  true

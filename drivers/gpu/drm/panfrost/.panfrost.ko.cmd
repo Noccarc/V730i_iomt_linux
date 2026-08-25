@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panfrost/panfrost.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/gpu/drm/panfrost/panfrost.ko drivers/gpu/drm/panfrost/panfrost.o drivers/gpu/drm/panfrost/panfrost.mod.o;  true

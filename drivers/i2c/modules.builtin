@@ -1,0 +1,5 @@
+drivers/i2c/i2c-core.ko
+drivers/i2c/i2c-dev.ko
+drivers/i2c/algos/i2c-algo-bit.ko
+drivers/i2c/busses/i2c-imx.ko
+drivers/i2c/busses/i2c-imx-lpi2c.ko

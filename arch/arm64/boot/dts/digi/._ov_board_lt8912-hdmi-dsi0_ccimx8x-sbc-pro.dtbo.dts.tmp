@@ -1,0 +1,86 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_lt8912-hdmi-dsi0_ccimx8x-sbc-pro.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_lt8912-hdmi-dsi0_ccimx8x-sbc-pro.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_lt8912-hdmi-dsi0_ccimx8x-sbc-pro.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SBC: LT8912 MIPI-to-HDMI adapter board on DSI0";
+  };
+ };
+
+ fragment@1 {
+  target = <&ldb1>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+ fragment@2 {
+  target = <&ldb1_phy>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+ fragment@3 {
+  target = <&lvds0>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+ fragment@4 {
+  target = <&lvds_backlight0>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+ fragment@5 {
+  target = <&pwm_mipi_lvds0>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+ fragment@6 {
+  target = <&lvds0_goodix_touch1>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+ fragment@7 {
+  target = <&lvds0_goodix_touch2>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+ fragment@8 {
+  target = <&lt_bridge>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+ fragment@9 {
+  target = <&mipi0_dphy>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+ fragment@10 {
+  target = <&mipi0_dsi_host>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+};

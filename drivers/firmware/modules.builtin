@@ -1,0 +1,5 @@
+drivers/firmware/arm_scpi.ko
+drivers/firmware/scpi_pm_domain.ko
+drivers/firmware/efi/capsule-loader.ko
+drivers/firmware/imx/imx-dsp.ko
+drivers/firmware/imx/seco_mu.ko

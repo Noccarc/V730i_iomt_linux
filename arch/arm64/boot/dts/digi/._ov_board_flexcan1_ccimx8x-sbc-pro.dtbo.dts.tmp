@@ -1,0 +1,32 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_flexcan1_ccimx8x-sbc-pro.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_flexcan1_ccimx8x-sbc-pro.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_flexcan1_ccimx8x-sbc-pro.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SBC: FlexCAN1";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&flexcan1>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@2 {
+  target = <&lpuart0>;
+  __overlay__ {
+   pinctrl-0 = <&pinctrl_lpuart0_2wires>;
+  };
+ };
+};

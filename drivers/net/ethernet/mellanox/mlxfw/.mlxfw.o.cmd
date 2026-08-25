@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/mellanox/mlxfw/mlxfw.o := aarch64-dey-linux-ld  -EL  -maarch64elf    -r -o drivers/net/ethernet/mellanox/mlxfw/mlxfw.o drivers/net/ethernet/mellanox/mlxfw/mlxfw_fsm.o drivers/net/ethernet/mellanox/mlxfw/mlxfw_mfa2_tlv_multi.o drivers/net/ethernet/mellanox/mlxfw/mlxfw_mfa2.o

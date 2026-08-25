@@ -1,0 +1,7 @@
+drivers/pinctrl/freescale/pinctrl-imx8mm.ko
+drivers/pinctrl/freescale/pinctrl-imx8mn.ko
+drivers/pinctrl/freescale/pinctrl-imx8mp.ko
+drivers/pinctrl/freescale/pinctrl-imx8mq.ko
+drivers/pinctrl/freescale/pinctrl-imx8qm.ko
+drivers/pinctrl/freescale/pinctrl-imx8qxp.ko
+drivers/pinctrl/freescale/pinctrl-imx8dxl.ko

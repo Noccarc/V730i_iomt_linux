@@ -1,0 +1,40 @@
+!<thin>
+//                                              402       `
+bcm/brcmstb/common.o/
+bcm/brcmstb/biuctrl.o/
+fsl/qixis_ctrl.o/
+fsl/guts.o/
+fsl/dpio/dpio.o/
+fsl/dpio/qbman-portal.o/
+fsl/dpio/dpio-service.o/
+fsl/dpio/dpio-driver.o/
+fsl/dpaa2-console.o/
+fsl/rcpm.o/
+imx/gpcv2.o/
+imx/busfreq-imx8mq.o/
+imx/soc-imx8.o/
+imx/soc-imx-scu.o/
+imx/imx8m_pm_domains.o/
+imx/mu/mx8_mu.o/
+imx/secvio/imx-secvio-sc.o/
+imx/secvio/imx-secvio-debugfs.o/
+imx/secvio/imx-secvio-audit.o/
+/0              0           0     0     644     10088     `
+/22             0           0     0     644     6984      `
+/45             0           0     0     644     6464      `
+/63             0           0     0     644     12648     `
+/75             0           0     0     644     3768      `
+/92             0           0     0     644     22104     `
+/117            0           0     0     644     39128     `
+/142            0           0     0     644     11048     `
+/166            0           0     0     644     13168     `
+/187            0           0     0     644     7328      `
+/199            0           0     0     644     32624     `
+/212            0           0     0     644     25888     `
+/234            0           0     0     644     16576     `
+/250            0           0     0     644     6568      `
+/269            0           0     0     644     9824      `
+/293            0           0     0     644     7896      `
+/310            0           0     0     644     29136     `
+/338            0           0     0     644     9952      `
+/371            0           0     0     644     1928      `

@@ -1,0 +1,61 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_som_bt_ccimx8m.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_som_bt_ccimx8m.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_som_bt_ccimx8m.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SOM: Bluetooth";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&bluetooth>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@2 {
+  target = <&reg_3v3_rf>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@3 {
+  target = <&reg_rf_bt_en>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+
+
+
+
+
+ fragment@4 {
+  target = <&reg_rf_wl_en>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@5 {
+  target = <&uart2>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+};

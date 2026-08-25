@@ -1,0 +1,48 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_parallel-camera_ccimx8x-sbc-pro.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_parallel-camera_ccimx8x-sbc-pro.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_parallel-camera_ccimx8x-sbc-pro.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SBC: Parallel camera";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&parallel_csi>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@2 {
+  target = <&ov5640>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@3 {
+  target = <&mipi_csi_0>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+
+
+ fragment@4 {
+  target = <&ov5640_mipi>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+};

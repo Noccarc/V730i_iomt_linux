@@ -1,0 +1,5 @@
+net/ipv4/ip_tunnel.ko
+net/ipv4/udp_tunnel.ko
+net/ipv4/tunnel4.ko
+net/ipv6/sit.ko
+net/ipv6/ip6_udp_tunnel.ko

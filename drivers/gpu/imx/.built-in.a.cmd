@@ -1,0 +1,1 @@
+cmd_drivers/gpu/imx/built-in.a := rm -f drivers/gpu/imx/built-in.a; aarch64-dey-linux-ar cDPrST drivers/gpu/imx/built-in.a drivers/gpu/imx/dpu/built-in.a drivers/gpu/imx/dpu-blit/built-in.a drivers/gpu/imx/lcdif/built-in.a drivers/gpu/imx/imx8_pc.o drivers/gpu/imx/imx8_prg.o drivers/gpu/imx/imx8_dprc.o

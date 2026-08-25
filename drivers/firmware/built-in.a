@@ -1,0 +1,61 @@
+!<thin>
+//                                              432       `
+arm_scpi.o/
+scpi_pm_domain.o/
+dmi_scan.o/
+dmi-id.o/
+psci/psci.o/
+efi/efi.o/
+efi/vars.o/
+efi/reboot.o/
+efi/memattr.o/
+efi/tpm.o/
+efi/capsule.o/
+efi/memmap.o/
+efi/esrt.o/
+efi/cper.o/
+efi/runtime-wrappers.o/
+efi/libstub/lib-ksyms.o/
+efi/arm-init.o/
+efi/arm-runtime.o/
+efi/capsule-loader.o/
+efi/earlycon.o/
+efi/cper-arm.o/
+imx/imx-dsp.o/
+imx/imx-scu.o/
+imx/misc.o/
+imx/imx-scu-irq.o/
+imx/rm.o/
+imx/seco.o/
+imx/scu-pd.o/
+imx/seco_mu.o/
+
+/0              0           0     0     644     22928     `
+/12             0           0     0     644     6680      `
+/30             0           0     0     644     27768     `
+/42             0           0     0     644     10472     `
+/52             0           0     0     644     15792     `
+/65             0           0     0     644     31312     `
+/76             0           0     0     644     35224     `
+/88             0           0     0     644     4296      `
+/102            0           0     0     644     6056      `
+/117            0           0     0     644     4816      `
+/128            0           0     0     644     7304      `
+/143            0           0     0     644     6504      `
+/157            0           0     0     644     13176     `
+/169            0           0     0     644     25008     `
+/181            0           0     0     644     24632     `
+/205            0           0     0     644     656       `
+/230            0           0     0     644     9488      `
+/246            0           0     0     644     7296      `
+/265            0           0     0     644     10520     `
+/287            0           0     0     644     9576      `
+/303            0           0     0     644     11576     `
+/319            0           0     0     644     8040      `
+/334            0           0     0     644     13032     `
+/349            0           0     0     644     4680      `
+/361            0           0     0     644     10168     `
+/380            0           0     0     644     6848      `
+/390            0           0     0     644     7576      `
+/402            0           0     0     644     17544     `
+/416            0           0     0     644     23120     `

@@ -1,0 +1,61 @@
+# 1 "arch/arm64/boot/dts/freescale/fsl-ls1028a-qds-899b.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/freescale/fsl-ls1028a-qds-899b.dts"
+# 11 "arch/arm64/boot/dts/freescale/fsl-ls1028a-qds-899b.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target = <&mdio_slot1>;
+  __overlay__ {
+   #address-cells = <1>;
+   #size-cells = <0>;
+
+
+   slot1_sgmii0: ethernet-phy@1c {
+    reg = <0x1c>;
+   };
+
+   slot1_sgmii1: ethernet-phy@1d {
+    reg = <0x1d>;
+   };
+
+   slot1_sgmii2: ethernet-phy@1e {
+    reg = <0x1e>;
+   };
+
+   slot1_sgmii3: ethernet-phy@1f {
+    reg = <0x1f>;
+   };
+  };
+ };
+
+ fragment@1 {
+  target = <&enetc_port0>;
+  __overlay__ {
+   phy-handle = <&slot1_sgmii0>;
+   phy-mode = "sgmii";
+  };
+ };
+
+ fragment@2 {
+  target = <&mscc_felix_ports>;
+  __overlay__ {
+   port@1 {
+    status = "okay";
+    phy-handle = <&slot1_sgmii1>;
+    phy-mode = "sgmii";
+    managed = "in-band-status";
+   };
+
+   port@2 {
+    status = "okay";
+    phy-handle = <&slot1_sgmii2>;
+    phy-mode = "sgmii";
+    managed = "in-band-status";
+   };
+  };
+ };
+};

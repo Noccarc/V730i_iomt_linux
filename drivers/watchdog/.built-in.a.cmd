@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/built-in.a := rm -f drivers/watchdog/built-in.a; aarch64-dey-linux-ar cDPrST drivers/watchdog/built-in.a drivers/watchdog/watchdog_core.o drivers/watchdog/watchdog_dev.o drivers/watchdog/imx2_wdt.o drivers/watchdog/imx_sc_wdt.o drivers/watchdog/mca_wdt.o drivers/watchdog/mca_gpio_wdt.o

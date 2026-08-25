@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/built-in.a := rm -f drivers/usb/serial/built-in.a; aarch64-dey-linux-ar cDPrST drivers/usb/serial/built-in.a drivers/usb/serial/usb-serial.o drivers/usb/serial/generic.o drivers/usb/serial/bus.o drivers/usb/serial/option.o drivers/usb/serial/qcserial.o drivers/usb/serial/sierra.o drivers/usb/serial/usb_wwan.o

@@ -1,0 +1,3 @@
+drivers/media/platform/mxc/capture/mx6s_capture.ko
+drivers/media/platform/mxc/capture/mxc_mipi_csi.ko
+drivers/media/platform/mxc/capture/ov5640_camera_mipi_v2.ko

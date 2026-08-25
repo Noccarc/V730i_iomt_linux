@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/lan78xx.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/net/usb/lan78xx.ko drivers/net/usb/lan78xx.o drivers/net/usb/lan78xx.mod.o;  true

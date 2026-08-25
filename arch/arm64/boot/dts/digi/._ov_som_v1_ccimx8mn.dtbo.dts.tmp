@@ -1,0 +1,94 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_som_v1_ccimx8mn.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_som_v1_ccimx8mn.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_som_v1_ccimx8mn.dts"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 17 "arch/arm64/boot/dts/digi/_ov_som_v1_ccimx8mn.dts" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 9 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 10 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 2
+# 18 "arch/arm64/boot/dts/digi/_ov_som_v1_ccimx8mn.dts" 2
+
+/dts-v1/;
+/plugin/;
+# 33 "arch/arm64/boot/dts/digi/_ov_som_v1_ccimx8mn.dts"
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SOM: version 1";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&reg_3v3_rf>;
+  __overlay__ {
+   pinctrl-0 = <&pinctrl_reg_3v3_rf_somv1>;
+   gpio = <&gpio3 14 0>;
+  };
+ };
+
+
+ fragment@2 {
+  target = <&mca_cc8m>;
+  __overlay__ {
+   interrupt-parent = <&gpio3>;
+   interrupts = <8 4>;
+   fw-update-gpio = <&gpio1 4 1>;
+   pinctrl-0 = <&pinctrl_mca_cc8m_somv1>;
+  };
+ };
+
+
+ fragment@3 {
+  target = <&pmic_pca9450>;
+  __overlay__ {
+
+   status = "disabled";
+  };
+ };
+
+
+ fragment@4 {
+  target = <&A53_0>;
+  __overlay__ {
+   arm-supply = <&buck2_reg_bd71850>;
+  };
+ };
+
+ fragment@5 {
+  target = <&pmic_bd71850>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@6 {
+  target = <&usdhc2>;
+  __overlay__ {
+
+   pinctrl-assert-gpios = <&gpio5 1 1>;
+   pinctrl-0 = <&pinctrl_usdhc2>,
+        <&pinctrl_usdhc2_gpio>,
+        <&pinctrl_usdhc2_vsel_somv1_dvkv1>;
+   pinctrl-1 = <&pinctrl_usdhc2_100mhz>,
+        <&pinctrl_usdhc2_gpio>,
+        <&pinctrl_usdhc2_vsel_somv1_dvkv1>;
+   pinctrl-2 = <&pinctrl_usdhc2_200mhz>,
+        <&pinctrl_usdhc2_gpio>,
+        <&pinctrl_usdhc2_vsel_somv1_dvkv1>;
+  };
+ };
+
+
+ fragment@7 {
+  target = <&usdhc1>;
+  __overlay__ {
+   no-1-8-v;
+  };
+ };
+};

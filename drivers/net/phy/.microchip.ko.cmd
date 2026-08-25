@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/microchip.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/net/phy/microchip.ko drivers/net/phy/microchip.o drivers/net/phy/microchip.mod.o;  true

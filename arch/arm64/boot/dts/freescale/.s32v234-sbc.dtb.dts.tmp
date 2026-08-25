@@ -1,0 +1,438 @@
+# 1 "arch/arm64/boot/dts/freescale/s32v234-sbc.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/freescale/s32v234-sbc.dts"
+# 12 "arch/arm64/boot/dts/freescale/s32v234-sbc.dts"
+/dts-v1/;
+
+# 1 "arch/arm64/boot/dts/freescale/s32v234.dtsi" 1
+
+
+
+
+
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 9 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 10 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 2
+# 8 "arch/arm64/boot/dts/freescale/s32v234.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/s32v234-clock.h" 1
+# 9 "arch/arm64/boot/dts/freescale/s32v234.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/s32v234-pinctrl.h" 1
+# 10 "arch/arm64/boot/dts/freescale/s32v234.dtsi" 2
+
+/memreserve/ 0x80000000 0x00010000;
+
+/ {
+ compatible = "fsl,s32v234";
+ interrupt-parent = <&gic>;
+ #address-cells = <2>;
+ #size-cells = <2>;
+
+ aliases {
+  can0 = &can0;
+  can1 = &can1;
+  serial0 = &uart0;
+  serial1 = &uart1;
+ };
+
+ clocks {
+  #address-cells = <1>;
+  #size-cells = <0>;
+
+  firc {
+   compatible = "fixed-clock";
+   clock-frequency = <48000000>;
+   #clock-cells = <0>;
+  };
+  fxosc {
+   compatible = "fixed-clock";
+   clock-frequency = <40000000>;
+   #clock-cells = <0>;
+  };
+ };
+
+ cpus {
+  #address-cells = <2>;
+  #size-cells = <0>;
+
+  cpu0: cpu@0 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x0 0x0>;
+   enable-method = "spin-table";
+   cpu-release-addr = <0x0 0x80000000>;
+   next-level-cache = <&cluster0_l2_cache>;
+  };
+
+  cpu1: cpu@1 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x0 0x1>;
+   enable-method = "spin-table";
+   cpu-release-addr = <0x0 0x80000000>;
+   next-level-cache = <&cluster0_l2_cache>;
+  };
+
+  cpu2: cpu@100 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x0 0x100>;
+   enable-method = "spin-table";
+   cpu-release-addr = <0x0 0x80000000>;
+   next-level-cache = <&cluster1_l2_cache>;
+  };
+
+  cpu3: cpu@101 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a53";
+   reg = <0x0 0x101>;
+   enable-method = "spin-table";
+   cpu-release-addr = <0x0 0x80000000>;
+   next-level-cache = <&cluster1_l2_cache>;
+  };
+
+  cluster0_l2_cache: l2-cache0 {
+   compatible = "cache";
+  };
+
+  cluster1_l2_cache: l2-cache1 {
+   compatible = "cache";
+  };
+ };
+
+ timer {
+  compatible = "arm,armv8-timer";
+  interrupts = <1 13 ((((1 << (4)) - 1) << 8) |
+       8)>,
+        <1 14 ((((1 << (4)) - 1) << 8) |
+       8)>,
+        <1 11 ((((1 << (4)) - 1) << 8) |
+       8)>,
+        <1 10 ((((1 << (4)) - 1) << 8) |
+       8)>;
+
+
+
+  clock-frequency = <10000000>;
+ };
+
+ gic: interrupt-controller@7d001000 {
+  compatible = "arm,cortex-a15-gic", "arm,cortex-a9-gic";
+  #interrupt-cells = <3>;
+  #address-cells = <0>;
+  interrupt-controller;
+  reg = <0 0x7d001000 0 0x1000>,
+        <0 0x7d002000 0 0x2000>,
+        <0 0x7d004000 0 0x2000>,
+        <0 0x7d006000 0 0x2000>;
+  interrupts = <1 9 ((((1 << (4)) - 1) << 8) |
+      4)>;
+ };
+
+ soc {
+  #address-cells = <2>;
+  #size-cells = <2>;
+  compatible = "simple-bus";
+  interrupt-parent = <&gic>;
+  ranges;
+
+  aips0: aips-bus@40000000 {
+   compatible = "simple-bus";
+   #address-cells = <2>;
+   #size-cells = <2>;
+   interrupt-parent = <&gic>;
+   reg = <0x0 0x40000000 0x0 0x7d000>;
+   ranges;
+
+   fec: ethernet@40032000 {
+    compatible = "fsl,s32v234-fec";
+    reg = <0x0 0x40032000 0x0 0x1000>;
+    interrupt-names = "int0", "int1", "int2", "pps";
+    interrupts = <0 38 4>,
+          <0 37 4>,
+          <0 36 4>,
+          <0 35 4>;
+    clocks = <&clks 24>,
+      <&clks 23>,
+      <&clks 31>,
+      <&clks 30>,
+      <&clks 31>;
+    clock-names = "ipg", "ahb", "ptp",
+           "enet_clk_ref",
+           "enet_out";
+    fsl,num-tx-queues = <3>;
+    fsl,num-rx-queues = <3>;
+    status = "disabled";
+   };
+
+   clks: mc_cgm0@4003c000 {
+    compatible = "fsl,s32v234-mc_cgm0";
+    reg = <0x0 0x4003C000 0x0 0x1000>;
+    #clock-cells = <1>;
+   };
+
+   mc_cgm1: mc_cgm1@4003F000 {
+    compatible = "fsl,s32v234-mc_cgm1";
+    reg = <0x0 0x4003F000 0x0 0x1000>;
+   };
+
+   mc_cgm2: mc_cgm2@40042000 {
+    compatible = "fsl,s32v234-mc_cgm2";
+    reg = <0x0 0x40042000 0x0 0x1000>;
+   };
+
+   mc_cgm3: mc_cgm3@40045000 {
+    compatible = "fsl,s32v234-mc_cgm3";
+    reg = <0x0 0x40045000 0x0 0x1000>;
+   };
+
+   mc_me: mc_me@4004a000 {
+    compatible = "fsl,s32v234-mc_me";
+    reg = <0x0 0x4004A000 0x0 0x1000>;
+   };
+
+   uart0: serial@40053000 {
+    compatible = "fsl,s32v234-linflexuart";
+    reg = <0x0 0x40053000 0x0 0x1000>;
+    interrupts = <0 59 1>;
+    clocks = <&clks 9>;
+    clock-names = "lin";
+    status = "disabled";
+   };
+
+   can0: flexcan@40055000 {
+    compatible = "fsl,s32v234-flexcan";
+    reg = <0x0 0x40055000 0x0 0x1000>;
+    interrupts = <0 42 4>;
+    clocks = <&clks 38>,
+      <&clks 38>;
+    clock-names = "ipg", "per";
+    status = "disabled";
+   };
+
+   usdhc0: usdhc@4005d000 {
+    compatible = "fsl,s32v234-usdhc";
+    reg = <0x0 0x4005D000 0x0 0x1000>;
+    interrupts = <0 28 4>;
+    clocks = <&clks 12>,
+      <&clks 12>,
+      <&clks 12>;
+    clock-names = "ipg", "ahb", "per";
+    bus-width = <8>;
+    status = "disabled";
+   };
+
+   siul2: siul@4006c000 {
+    compatible = "fsl,s32v234-siul2";
+    reg = <0x0 0x4006C000 0x0 0x1794>;
+    status = "disabled";
+   };
+
+   src: src@4007c000 {
+    compatible = "fsl,s32v234-src";
+    reg = <0x0 0x4007C000 0x0 0x1000>;
+    #reset-cells = <1>;
+   };
+  };
+
+  aips1: aips-bus@40080000 {
+   compatible = "simple-bus";
+   #address-cells = <2>;
+   #size-cells = <2>;
+   interrupt-parent = <&gic>;
+   reg = <0x0 0x40080000 0x0 0x70000>;
+   ranges;
+
+   uart1: serial@400bc000 {
+    compatible = "fsl,s32v234-linflexuart";
+    reg = <0x0 0x400bc000 0x0 0x1000>;
+    interrupts = <0 60 1>;
+    clocks = <&clks 9>;
+    clock-names = "lin";
+    status = "disabled";
+   };
+
+   can1: flexcan@400be000 {
+    compatible = "fsl,s32v234-flexcan";
+    reg = <0x0 0x400be000 0x0 0x1000>;
+    interrupts = <0 44 4>;
+    clocks = <&clks 38>,
+      <&clks 38>;
+    clock-names = "ipg", "per";
+    status = "disabled";
+   };
+  };
+ };
+};
+# 15 "arch/arm64/boot/dts/freescale/s32v234-sbc.dts" 2
+
+/ {
+ model = "Freescale S32V234";
+ compatible = "fsl,s32v234-sbc", "fsl,s32v234";
+
+ chosen {
+  stdout-path = "serial0:115200n8";
+ };
+};
+
+&can0 {
+ pinctrl-names = "default";
+ pinctrl-0 = <&pinctrl_can0>;
+ status = "okay";
+};
+
+&can1 {
+ pinctrl-names = "default";
+ pinctrl-0 = <&pinctrl_can1>;
+ status = "okay";
+};
+
+&fec {
+ pinctrl-names = "default";
+ pinctrl-0 = <&pinctrl_enet>;
+ phy-mode = "rgmii";
+ phy-handle = <&phy0>;
+ status = "okay";
+
+ mdio {
+  #address-cells = <1>;
+  #size-cells = <0>;
+  phy0: ethernet-phy@1 {
+   reg = <1>;
+  };
+ };
+};
+
+&siul2 {
+ status = "okay";
+
+ s32v234-sbc {
+
+
+
+
+
+  pinctrl_can0: can0grp {
+   fsl,pins = <
+    2 ((1 << 21) | (1 << (11)) | (1 << 13) | (7 << (8)) | (1))
+    3 ((1 << 13) | (1 << 19) | (1 << (11)))
+    700 ((2))
+
+
+
+
+
+    6 ((0) | (1 << 21) | (7 << (8)) | (3 << (11)))
+
+
+
+   >;
+  };
+
+  pinctrl_can1: can1grp {
+   fsl,pins = <
+    4 ((1 << 21) | (1 << (11)) | (1 << 13) | (7 << (8)) | (1))
+    5 ((1 << 13) | (1 << 19) | (1 << (11)))
+    701 ((3))
+
+
+
+
+
+    7 ((0) | (1 << 21) | (7 << (8)) | (3 << (11)))
+
+
+
+   >;
+  };
+
+  pinctrl_enet: enetgrp {
+   fsl,pins = <
+    45 ((7 << (8)) | (3 << (14)) | (1 << 21) | (1))
+    46 ((7 << (8)) | (3 << (14)) | (1 << 21) | (1 << 19) | (1))
+    981 (2)
+    47 ((7 << (8)) | (2 << (11)) | (1 << 13) | (1 << 21) | (1))
+    978 (2)
+    48 ((7 << (8)) | (3 << (14)) | (1 << 19))
+    979 (2)
+    49 ((7 << (8)) | (3 << (14)) | (1 << 19))
+    974 (2)
+    50 ((7 << (8)) | (3 << (14)) | (1 << 19))
+    975 (2)
+    51 ((7 << (8)) | (3 << (14)) | (1 << 19))
+    976 (2)
+    52 ((7 << (8)) | (3 << (14)) | (1 << 19))
+    977 (2)
+    53 ((7 << (8)) | (3 << (14)) | (1 << 19))
+    973 (2)
+    55 ((7 << (8)) | (3 << (14)) | (1 << 21) | (1))
+    56 ((7 << (8)) | (3 << (14)) | (1 << 21) | (1))
+    57 ((7 << (8)) | (3 << (14)) | (1 << 21) | (1))
+    58 ((7 << (8)) | (3 << (14)) | (1 << 21) | (1))
+    59 ((7 << (8)) | (3 << (14)) | (1 << 21) | (1))
+   >;
+  };
+
+  pinctrl_uart0: uart0grp {
+   fsl,pins = <
+    12 ((1 << 21) | (2 << (11)) | (4 << (8)) | (1 << (14)) | (1))
+    11 ((1 << 13) | (1 << 19) | (2 << (22)))
+    712 ((2))
+   >;
+  };
+
+  pinctrl_uart1: uart1grp {
+   fsl,pins = <
+    14 ((1 << 21) | (2 << (11)) | (4 << (8)) | (1 << (14)) | (1))
+    13 ((1 << 13) | (1 << 19) | (2 << (22)))
+    714 ((2))
+   >;
+  };
+
+  pinctrl_usdhc0: usdhc0grp {
+   fsl,pins = <
+    150 (((3 << (14)) | (1 << 21) | (7 << (8)) | (1 << 16) | (1 << 19) | (2 << (11)) | (1 << 13)) | (2))
+    902 (3)
+    151 (((3 << (14)) | (1 << 21) | (7 << (8)) | (1 << 16) | (1 << 19) | (2 << (11)) | (1 << 13)) | (1))
+    901 (3)
+    152 (((3 << (14)) | (1 << 21) | (7 << (8)) | (1 << 16) | (1 << 19) | (2 << (11)) | (1 << 13)) | (2))
+    903 (3)
+    153 (((3 << (14)) | (1 << 21) | (7 << (8)) | (1 << 16) | (1 << 19) | (2 << (11)) | (1 << 13)) | (2))
+    904 (3)
+    154 (((3 << (14)) | (1 << 21) | (7 << (8)) | (1 << 16) | (1 << 19) | (2 << (11)) | (1 << 13)) | (2))
+    905 (3)
+    155 (((3 << (14)) | (1 << 21) | (7 << (8)) | (1 << 16) | (1 << 19) | (2 << (11)) | (1 << 13)) | (2))
+    906 (3)
+    159 (((3 << (14)) | (1 << 21) | (7 << (8)) | (1 << 16) | (1 << 19) | (2 << (11)) | (1 << 13)) | (3))
+    907 (3)
+    160 (((3 << (14)) | (1 << 21) | (7 << (8)) | (1 << 16) | (1 << 19) | (2 << (11)) | (1 << 13)) | (3))
+    908 (3)
+    161 (((3 << (14)) | (1 << 21) | (7 << (8)) | (1 << 16) | (1 << 19) | (2 << (11)) | (1 << 13)) | (3))
+    909 (3)
+    162 (((3 << (14)) | (1 << 21) | (7 << (8)) | (1 << 16) | (1 << 19) | (2 << (11)) | (1 << 13)) | (3))
+    910 (3)
+   >;
+  };
+ };
+};
+
+&uart0 {
+ pinctrl-names = "default";
+ pinctrl-0 = <&pinctrl_uart0>;
+ status = "okay";
+};
+
+&uart1 {
+ pinctrl-names = "default";
+ pinctrl-0 = <&pinctrl_uart1>;
+ status = "okay";
+};
+
+&usdhc0 {
+ no-1-8-v;
+ pinctrl-names = "default";
+ pinctrl-0 = <&pinctrl_usdhc0>;
+ status = "okay";
+};

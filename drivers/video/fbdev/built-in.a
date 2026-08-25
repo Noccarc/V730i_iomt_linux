@@ -1,0 +1,51 @@
+!<thin>
+//                                              394       `
+core/fb_cmdline.o/
+core/fb_notify.o/
+core/fbmem.o/
+core/fbmon.o/
+core/fbcmap.o/
+core/fbsysfs.o/
+core/modedb.o/
+core/fbcvt.o/
+core/fb_defio.o/
+core/fbcon.o/
+core/bitblit.o/
+core/softcursor.o/
+core/cfbfillrect.o/
+core/cfbcopyarea.o/
+core/cfbimgblt.o/
+core/sysfillrect.o/
+core/syscopyarea.o/
+core/sysimgblt.o/
+core/fb_sys_fops.o/
+mxc/mxc_dispdrv.o/
+mxc/mxc_edid.o/
+amba-clcd.o/
+efifb.o/
+mx3fb.o/
+
+/0              0           0     0     644     5640      `
+/19             0           0     0     644     4800      `
+/37             0           0     0     644     57296     `
+/51             0           0     0     644     20320     `
+/65             0           0     0     644     13856     `
+/80             0           0     0     644     13640     `
+/96             0           0     0     644     27824     `
+/111            0           0     0     644     4992      `
+/125            0           0     0     644     12232     `
+/142            0           0     0     644     60424     `
+/156            0           0     0     644     7560      `
+/172            0           0     0     644     3240      `
+/191            0           0     0     644     8208      `
+/211            0           0     0     644     8672      `
+/231            0           0     0     644     4600      `
+/249            0           0     0     644     6184      `
+/269            0           0     0     644     4720      `
+/289            0           0     0     644     4216      `
+/307            0           0     0     644     5616      `
+/327            0           0     0     644     8432      `
+/346            0           0     0     644     14552     `
+/362            0           0     0     644     19392     `
+/375            0           0     0     644     16672     `
+/384            0           0     0     644     23272     `

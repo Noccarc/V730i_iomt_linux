@@ -1,0 +1,1 @@
+cmd_drivers/net/can/spi/mcp25xxfd/mcp25xxfd.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/net/can/spi/mcp25xxfd/mcp25xxfd.ko drivers/net/can/spi/mcp25xxfd/mcp25xxfd.o drivers/net/can/spi/mcp25xxfd/mcp25xxfd.mod.o;  true

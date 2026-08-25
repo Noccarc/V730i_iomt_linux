@@ -1,0 +1,17 @@
+!<thin>
+//                                              138       `
+lnxwrp_fm.o/
+lnxwrp_fm_port.o/
+lnxwrp_ioctls_fm.o/
+lnxwrp_sysfs.o/
+lnxwrp_sysfs_fm.o/
+lnxwrp_sysfs_fm_port.o/
+lnxwrp_ioctls_fm_compat.o/
+
+/0              0           0     0     644     204024    `
+/13             0           0     0     644     58088     `
+/31             0           0     0     644     200008    `
+/51             0           0     0     644     2312      `
+/67             0           0     0     644     155416    `
+/86             0           0     0     644     129808    `
+/110            0           0     0     644     37200     `

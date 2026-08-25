@@ -1,0 +1,1 @@
+cmd_drivers/usb/phy/built-in.a := rm -f drivers/usb/phy/built-in.a; aarch64-dey-linux-ar cDPrST drivers/usb/phy/built-in.a drivers/usb/phy/phy.o drivers/usb/phy/of.o drivers/usb/phy/phy-generic.o drivers/usb/phy/phy-gpio-vbus-usb.o drivers/usb/phy/phy-mxs-usb.o drivers/usb/phy/phy-ulpi.o drivers/usb/phy/phy-ulpi-viewport.o

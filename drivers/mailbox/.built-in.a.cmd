@@ -1,0 +1,1 @@
+cmd_drivers/mailbox/built-in.a := rm -f drivers/mailbox/built-in.a; aarch64-dey-linux-ar cDPrST drivers/mailbox/built-in.a drivers/mailbox/mailbox.o drivers/mailbox/arm_mhu.o drivers/mailbox/imx-mailbox.o drivers/mailbox/platform_mhu.o drivers/mailbox/pcc.o

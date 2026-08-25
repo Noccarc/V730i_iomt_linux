@@ -1,0 +1,17 @@
+!<thin>
+//                                              130       `
+vpu_encoder_b0.o/
+vpu_encoder_ctrl.o/
+vpu_event_msg.o/
+vpu_encoder_mem.o/
+vpu_encoder_rpc.o/
+vpu_encoder_mu.o/
+vpu_encoder_pm.o/
+
+/0              0           0     0     644     147640    `
+/18             0           0     0     644     18632     `
+/38             0           0     0     644     8616      `
+/55             0           0     0     644     16136     `
+/74             0           0     0     644     4600      `
+/93             0           0     0     644     5840      `
+/111            0           0     0     644     4848      `

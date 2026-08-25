@@ -1,0 +1,1 @@
+cmd_drivers/usb/cdns3/built-in.a := rm -f drivers/usb/cdns3/built-in.a; aarch64-dey-linux-ar cDPrST drivers/usb/cdns3/built-in.a drivers/usb/cdns3/core.o drivers/usb/cdns3/gadget.o drivers/usb/cdns3/ep0.o drivers/usb/cdns3/trace.o drivers/usb/cdns3/host.o

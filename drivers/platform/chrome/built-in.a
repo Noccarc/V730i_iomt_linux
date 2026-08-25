@@ -1,0 +1,23 @@
+!<thin>
+//                                              166       `
+cros_ec.o/
+cros_ec_i2c.o/
+cros_ec_spi.o/
+cros_ec_proto.o/
+cros_ec_trace.o/
+cros_ec_chardev.o/
+cros_ec_lightbar.o/
+cros_ec_vbc.o/
+cros_ec_debugfs.o/
+cros_ec_sysfs.o/
+
+/0              0           0     0     644     10776     `
+/11             0           0     0     644     9872      `
+/26             0           0     0     644     15648     `
+/41             0           0     0     644     14136     `
+/58             0           0     0     644     920       `
+/75             0           0     0     644     13592     `
+/94             0           0     0     644     16152     `
+/114            0           0     0     644     6376      `
+/129            0           0     0     644     14496     `
+/148            0           0     0     644     12272     `

@@ -1,0 +1,56 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_v1-v3_ccimx8x-sbc-pro.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_v1-v3_ccimx8x-sbc-pro.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_v1-v3_ccimx8x-sbc-pro.dts"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 17 "arch/arm64/boot/dts/digi/_ov_board_v1-v3_ccimx8x-sbc-pro.dts" 2
+
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SBC: version <= 3";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&lvds0_goodix_touch1>;
+  __overlay__ {
+   irq-gpios = <&lsio_gpio3 20 1>;
+  };
+ };
+
+ fragment@2 {
+  target = <&lvds0_goodix_touch2>;
+  __overlay__ {
+   irq-gpios = <&lsio_gpio3 20 1>;
+  };
+ };
+
+ fragment@3 {
+  target = <&lvds1_goodix_touch1>;
+  __overlay__ {
+   irq-gpios = <&lsio_gpio3 19 1>;
+  };
+ };
+
+ fragment@4 {
+  target = <&lvds1_goodix_touch2>;
+  __overlay__ {
+   irq-gpios = <&lsio_gpio3 19 1>;
+  };
+ };
+
+
+ fragment@5 {
+  target = <&pmic_pwrdn>;
+  __overlay__ {
+   status = "disabled";
+  };
+ };
+};

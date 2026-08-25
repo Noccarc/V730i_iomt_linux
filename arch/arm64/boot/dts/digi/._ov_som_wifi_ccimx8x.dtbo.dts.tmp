@@ -1,0 +1,55 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_som_wifi_ccimx8x.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_som_wifi_ccimx8x.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_som_wifi_ccimx8x.dts"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 17 "arch/arm64/boot/dts/digi/_ov_som_wifi_ccimx8x.dts" 2
+
+/dts-v1/;
+/plugin/;
+
+/ {
+
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SOM: Wi-Fi";
+   wireless {
+
+   };
+  };
+ };
+
+
+ fragment@1 {
+  target = <&reg_3v3_rf>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@2 {
+  target = <&reg_rf_wl_en>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+
+
+
+
+
+ fragment@3 {
+  target = <&pcieb>;
+  __overlay__ {
+   clkreq-gpio = <&lsio_gpio4 1 1>;
+   epdev_on-supply = <&reg_rf_wl_en>;
+   digi,disable_pci_msi;
+   status = "okay";
+  };
+ };
+};

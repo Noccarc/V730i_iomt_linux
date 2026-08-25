@@ -1,0 +1,3 @@
+_ov_som_quad_ccimx8x.o: arch/arm64/boot/dts/digi/_ov_som_quad_ccimx8x.dts \
+ scripts/dtc/include-prefixes/dt-bindings/firmware/imx/rsrc.h \
+ scripts/dtc/include-prefixes/dt-bindings/thermal/thermal.h

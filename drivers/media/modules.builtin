@@ -1,0 +1,15 @@
+drivers/media/common/videobuf2/videobuf2-common.ko
+drivers/media/common/videobuf2/videobuf2-v4l2.ko
+drivers/media/common/videobuf2/videobuf2-memops.ko
+drivers/media/common/videobuf2/videobuf2-vmalloc.ko
+drivers/media/common/videobuf2/videobuf2-dma-contig.ko
+drivers/media/i2c/ov5640.ko
+drivers/media/mc/mc.ko
+drivers/media/platform/imx8/mxc-mipi-csi2_yav.ko
+drivers/media/platform/mxc/capture/mx6s_capture.ko
+drivers/media/platform/mxc/capture/mxc_mipi_csi.ko
+drivers/media/platform/mxc/capture/ov5640_camera_mipi_v2.ko
+drivers/media/v4l2-core/v4l2-fwnode.ko
+drivers/media/v4l2-core/videodev.ko
+drivers/media/v4l2-core/v4l2-dv-timings.ko
+drivers/media/v4l2-core/v4l2-mem2mem.ko

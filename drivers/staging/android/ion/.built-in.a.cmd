@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/ion/built-in.a := rm -f drivers/staging/android/ion/built-in.a; aarch64-dey-linux-ar cDPrST drivers/staging/android/ion/built-in.a drivers/staging/android/ion/ion.o drivers/staging/android/ion/ion_heap.o drivers/staging/android/ion/ion_system_heap.o drivers/staging/android/ion/ion_page_pool.o drivers/staging/android/ion/ion_cma_heap.o

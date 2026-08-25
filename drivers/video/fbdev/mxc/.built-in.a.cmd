@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/mxc/built-in.a := rm -f drivers/video/fbdev/mxc/built-in.a; aarch64-dey-linux-ar cDPrST drivers/video/fbdev/mxc/built-in.a drivers/video/fbdev/mxc/mxc_dispdrv.o drivers/video/fbdev/mxc/mxc_edid.o

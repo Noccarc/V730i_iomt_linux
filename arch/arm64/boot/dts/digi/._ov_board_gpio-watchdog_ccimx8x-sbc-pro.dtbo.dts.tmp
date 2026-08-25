@@ -1,0 +1,38 @@
+# 1 "arch/arm64/boot/dts/digi/_ov_board_gpio-watchdog_ccimx8x-sbc-pro.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm64/boot/dts/digi/_ov_board_gpio-watchdog_ccimx8x-sbc-pro.dts"
+# 16 "arch/arm64/boot/dts/digi/_ov_board_gpio-watchdog_ccimx8x-sbc-pro.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   overlay-description = "SBC: MCA GPIO Watchdog";
+  };
+ };
+
+
+ fragment@1 {
+  target = <&gpio_wdt>;
+  __overlay__ {
+   status = "okay";
+  };
+ };
+
+
+ fragment@2 {
+  target = <&gpio_wdt0>;
+  __overlay__ {
+   status = "okay";
+   full-reset;
+   no-way-out;
+
+   mode = "level-high";
+   mca-io-number = <7>;
+   timeout-sec = <2>;
+  };
+ };
+};

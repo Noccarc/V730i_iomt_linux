@@ -1,0 +1,27 @@
+!<thin>
+//                                              202       `
+thermal_core.o/
+thermal_sysfs.o/
+thermal_helpers.o/
+thermal_hwmon.o/
+of-thermal.o/
+step_wise.o/
+power_allocator.o/
+cpu_cooling.o/
+imx_sc_thermal.o/
+imx8mm_thermal.o/
+device_cooling.o/
+qoriq_thermal.o/
+
+/0              0           0     0     644     42544     `
+/16             0           0     0     644     22384     `
+/33             0           0     0     644     9480      `
+/52             0           0     0     644     7768      `
+/69             0           0     0     644     24744     `
+/83             0           0     0     644     3272      `
+/96             0           0     0     644     6568      `
+/115            0           0     0     644     13288     `
+/130            0           0     0     644     9992      `
+/148            0           0     0     644     8832      `
+/166            0           0     0     644     8552      `
+/184            0           0     0     644     11480     `

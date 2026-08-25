@@ -1,0 +1,13 @@
+!<thin>
+//                                              76        `
+ptp_clock.o/
+ptp_chardev.o/
+ptp_sysfs.o/
+ptp_qoriq.o/
+ptp_qoriq_debugfs.o/
+
+/0              0           0     0     644     17456     `
+/13             0           0     0     644     8448      `
+/28             0           0     0     644     10496     `
+/41             0           0     0     644     22536     `
+/54             0           0     0     644     5032      `

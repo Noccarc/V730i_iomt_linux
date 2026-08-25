@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/bridge/nwl-dsi/built-in.a := rm -f drivers/gpu/drm/bridge/nwl-dsi/built-in.a; aarch64-dey-linux-ar cDPrST drivers/gpu/drm/bridge/nwl-dsi/built-in.a drivers/gpu/drm/bridge/nwl-dsi/nwl-drv.o drivers/gpu/drm/bridge/nwl-dsi/nwl-dsi.o

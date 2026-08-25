@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/mellanox/mlxfw/mlxfw.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/net/ethernet/mellanox/mlxfw/mlxfw.ko drivers/net/ethernet/mellanox/mlxfw/mlxfw.o drivers/net/ethernet/mellanox/mlxfw/mlxfw.mod.o;  true

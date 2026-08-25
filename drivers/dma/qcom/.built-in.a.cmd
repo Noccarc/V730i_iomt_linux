@@ -1,0 +1,1 @@
+cmd_drivers/dma/qcom/built-in.a := rm -f drivers/dma/qcom/built-in.a; aarch64-dey-linux-ar cDPrST drivers/dma/qcom/built-in.a drivers/dma/qcom/hidma_mgmt.o drivers/dma/qcom/hidma_mgmt_sys.o drivers/dma/qcom/hidma_ll.o drivers/dma/qcom/hidma.o drivers/dma/qcom/hidma_dbg.o

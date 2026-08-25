@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/imx8/mxc-jpeg-encdec.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/media/platform/imx8/mxc-jpeg-encdec.ko drivers/media/platform/imx8/mxc-jpeg-encdec.o drivers/media/platform/imx8/mxc-jpeg-encdec.mod.o;  true

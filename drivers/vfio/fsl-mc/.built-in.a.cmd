@@ -1,0 +1,1 @@
+cmd_drivers/vfio/fsl-mc/built-in.a := rm -f drivers/vfio/fsl-mc/built-in.a; aarch64-dey-linux-ar cDPrST drivers/vfio/fsl-mc/built-in.a drivers/vfio/fsl-mc/vfio_fsl_mc.o drivers/vfio/fsl-mc/vfio_fsl_mc_intr.o

@@ -1,0 +1,1 @@
+cmd_drivers/phy/freescale/built-in.a := rm -f drivers/phy/freescale/built-in.a; aarch64-dey-linux-ar cDPrST drivers/phy/freescale/built-in.a drivers/phy/freescale/phy-fsl-imx8mp-lvds.o drivers/phy/freescale/phy-fsl-imx8mq-usb.o drivers/phy/freescale/phy-fsl-imx8-mipi-dphy.o drivers/phy/freescale/phy-fsl-imx8-pcie.o

@@ -1,0 +1,23 @@
+!<thin>
+//                                              250       `
+phy-core.o/
+phy-core-mipi-dphy.o/
+phy-xgene.o/
+phy-mixel-lvds.o/
+phy-mixel-lvds-combo.o/
+freescale/phy-fsl-imx8mp-lvds.o/
+freescale/phy-fsl-imx8mq-usb.o/
+freescale/phy-fsl-imx8-mipi-dphy.o/
+freescale/phy-fsl-imx8-pcie.o/
+samsung/phy-samsung-usb2.o/
+
+/0              0           0     0     644     50048     `
+/12             0           0     0     644     4104      `
+/34             0           0     0     644     20432     `
+/47             0           0     0     644     13960     `
+/65             0           0     0     644     13896     `
+/89             0           0     0     644     10080     `
+/122            0           0     0     644     14672     `
+/154            0           0     0     644     15536     `
+/190            0           0     0     644     8056      `
+/221            0           0     0     644     9944      `

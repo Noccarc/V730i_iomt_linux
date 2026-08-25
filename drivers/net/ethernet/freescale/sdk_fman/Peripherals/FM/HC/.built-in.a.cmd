@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/freescale/sdk_fman/Peripherals/FM/HC/built-in.a := rm -f drivers/net/ethernet/freescale/sdk_fman/Peripherals/FM/HC/built-in.a; aarch64-dey-linux-ar cDPrST drivers/net/ethernet/freescale/sdk_fman/Peripherals/FM/HC/built-in.a drivers/net/ethernet/freescale/sdk_fman/Peripherals/FM/HC/hc.o

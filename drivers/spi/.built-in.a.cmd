@@ -1,0 +1,1 @@
+cmd_drivers/spi/built-in.a := rm -f drivers/spi/built-in.a; aarch64-dey-linux-ar cDPrST drivers/spi/built-in.a drivers/spi/spi.o drivers/spi/spi-mem.o drivers/spi/spi-bitbang.o drivers/spi/spi-fsl-lpspi.o drivers/spi/spi-fsl-qspi.o drivers/spi/spi-imx.o drivers/spi/spi-nxp-fspi.o drivers/spi/spi-pl022.o

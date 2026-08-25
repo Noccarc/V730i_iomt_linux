@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/btdigi.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/bluetooth/btdigi.ko drivers/bluetooth/btdigi.o drivers/bluetooth/btdigi.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/imx8/mxc-jpeg-encdec.o := aarch64-dey-linux-ld  -EL  -maarch64elf    -r -o drivers/media/platform/imx8/mxc-jpeg-encdec.o drivers/media/platform/imx8/mxc-jpeg-hw.o drivers/media/platform/imx8/mxc-jpeg.o

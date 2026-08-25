@@ -1,0 +1,38 @@
+!<thin>
+//                                              296       `
+imx-drm-core.o/
+parallel-display.o/
+imx-tve.o/
+imx-ldb.o/
+imx8qm-ldb.o/
+imx8qxp-ldb.o/
+imx8mp-ldb.o/
+dpu/dpu-crtc.o/
+dpu/dpu-kms.o/
+dpu/dpu-plane.o/
+dpu/dpu-crc.o/
+dpu/dpu-blit.o/
+dw_hdmi-imx.o/
+imx8mp-hdmi-pavi.o/
+lcdif/lcdif-crtc.o/
+lcdif/lcdif-plane.o/
+lcdif/lcdif-kms.o/
+sec_mipi_dsim-imx.o/
+/0              0           0     0     644     17344     `
+/16             0           0     0     644     10624     `
+/36             0           0     0     644     17632     `
+/47             0           0     0     644     14592     `
+/58             0           0     0     644     13848     `
+/72             0           0     0     644     19568     `
+/87             0           0     0     644     12000     `
+/101            0           0     0     644     38904     `
+/117            0           0     0     644     12264     `
+/132            0           0     0     644     21432     `
+/149            0           0     0     644     8152      `
+/164            0           0     0     644     11160     `
+/180            0           0     0     644     14648     `
+/195            0           0     0     644     15192     `
+/215            0           0     0     644     12280     `
+/235            0           0     0     644     5800      `
+/256            0           0     0     644     2656      `
+/275            0           0     0     644     24000     `

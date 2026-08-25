@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/pl111/pl111_drm.ko := aarch64-dey-linux-ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o drivers/gpu/drm/pl111/pl111_drm.ko drivers/gpu/drm/pl111/pl111_drm.o drivers/gpu/drm/pl111/pl111_drm.mod.o;  true

@@ -1,0 +1,2 @@
+_ov_board_lt8912-hdmi-dsi0_ccimx8x-sbc-pro.o: \
+ arch/arm64/boot/dts/digi/_ov_board_lt8912-hdmi-dsi0_ccimx8x-sbc-pro.dts

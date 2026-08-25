@@ -1,0 +1,77 @@
+!<thin>
+//                                              940       `
+media/imx/imx8-media-dev.o/
+media/imx/imx8-isi-core.o/
+media/imx/imx8-isi-cap.o/
+media/imx/imx8-isi-m2m.o/
+media/imx/imx8-isi-hw.o/
+media/imx/imx8-mipi-csi2.o/
+media/imx/imx8-mipi-csi2-sam.o/
+media/imx/imx8-parallel-csi.o/
+media/imx/gmsl-max9286.o/
+android/ion/ion.o/
+android/ion/ion_heap.o/
+android/ion/ion_system_heap.o/
+android/ion/ion_page_pool.o/
+android/ion/ion_cma_heap.o/
+fsl-dpaa2/mac/mac.o/
+fsl-dpaa2/mac/dpmac.o/
+fsl-dpaa2/evb/evb.o/
+fsl-dpaa2/evb/dpdmux.o/
+gasket/gasket_core.o/
+gasket/gasket_ioctl.o/
+gasket/gasket_interrupt.o/
+gasket/gasket_page_table.o/
+gasket/gasket_sysfs.o/
+gasket/apex_driver.o/
+fsl_qbman/dpa_alloc.o/
+fsl_qbman/qbman_driver.o/
+fsl_qbman/bman_high.o/
+fsl_qbman/bman_config.o/
+fsl_qbman/bman_driver.o/
+fsl_qbman/bman_debugfs.o/
+fsl_qbman/qman_high.o/
+fsl_qbman/qman_utility.o/
+fsl_qbman/qman_config.o/
+fsl_qbman/qman_driver.o/
+fsl_qbman/qman_debugfs.o/
+fsl_qbman/fsl_usdpaa.o/
+fsl_qbman/fsl_usdpaa_irq.o/
+
+/0              0           0     0     644     19880     `
+/28             0           0     0     644     20456     `
+/55             0           0     0     644     39256     `
+/81             0           0     0     644     31080     `
+/107            0           0     0     644     31200     `
+/132            0           0     0     644     22480     `
+/160            0           0     0     644     37608     `
+/192            0           0     0     644     18184     `
+/223            0           0     0     644     41352     `
+/249            0           0     0     644     19256     `
+/268            0           0     0     644     11032     `
+/292            0           0     0     644     8816      `
+/323            0           0     0     644     4952      `
+/352            0           0     0     644     4584      `
+/380            0           0     0     644     13752     `
+/401            0           0     0     644     7000      `
+/424            0           0     0     644     32040     `
+/445            0           0     0     644     10840     `
+/469            0           0     0     644     44840     `
+/491            0           0     0     644     6040      `
+/514            0           0     0     644     11632     `
+/541            0           0     0     644     29328     `
+/569            0           0     0     644     15664     `
+/592            0           0     0     644     30120     `
+/614            0           0     0     644     40960     `
+/637            0           0     0     644     3680      `
+/663            0           0     0     644     43696     `
+/686            0           0     0     644     21352     `
+/711            0           0     0     644     21496     `
+/736            0           0     0     644     6080      `
+/762            0           0     0     644     230992    `
+/785            0           0     0     644     8520      `
+/811            0           0     0     644     32920     `
+/836            0           0     0     644     33360     `
+/861            0           0     0     644     56712     `
+/887            0           0     0     644     46744     `
+/911            0           0     0     644     10064     `

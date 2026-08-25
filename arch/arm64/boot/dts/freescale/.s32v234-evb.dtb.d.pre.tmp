@@ -1,0 +1,6 @@
+s32v234-evb.o: arch/arm64/boot/dts/freescale/s32v234-evb.dts \
+ arch/arm64/boot/dts/freescale/s32v234.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/s32v234-clock.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/s32v234-pinctrl.h

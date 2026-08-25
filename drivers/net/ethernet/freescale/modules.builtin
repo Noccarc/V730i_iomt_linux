@@ -1,0 +1,13 @@
+drivers/net/ethernet/freescale/fec.ko
+drivers/net/ethernet/freescale/xgmac_mdio.ko
+drivers/net/ethernet/freescale/dpaa2/fsl-dpaa2-eth.ko
+drivers/net/ethernet/freescale/dpaa2/fsl-dpaa2-ptp.ko
+drivers/net/ethernet/freescale/enetc/fsl-enetc.ko
+drivers/net/ethernet/freescale/enetc/fsl-enetc-vf.ko
+drivers/net/ethernet/freescale/enetc/fsl-enetc-mdio.ko
+drivers/net/ethernet/freescale/enetc/fsl-enetc-ptp.ko
+drivers/net/ethernet/freescale/sdk_dpaa/fsl_mac.ko
+drivers/net/ethernet/freescale/sdk_dpaa/fsl_dpa.ko
+drivers/net/ethernet/freescale/sdk_dpaa/fsl_advanced.ko
+drivers/net/ethernet/freescale/sdk_dpaa/fsl_proxy.ko
+drivers/net/ethernet/freescale/sdk_dpaa/fsl_oh.ko
